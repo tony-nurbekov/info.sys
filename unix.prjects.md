@@ -8,24 +8,31 @@
 
 
 ----------------------------------------------------
+# My Project
+
+- Краткое описание
+## Возможности
+## Технологии
+## Требования
+## Использование
+----------------------------------------------------
+
 
 ## Digital Agency
 
-## Main
-Unix Software Labs - Digital agency
-- Development * AI * Automation * Design 
-
-## About
-Цифровое агентство, специализирующееся на создании веб-сайтов, 
+Современный Веб приложение для Цифровое агентство, специализирующееся на создании веб-сайтов, 
 мобильных приложений и решениях на основе искусственного интеллекта
 
-## Services
-- > Automation & AI
-- > Web Development
-- > Mobile Development
-- > IT Outsourcing
+## Tech Stack
 
-## Contact
+- **Backend:** Python, FastAPI
+- **Frontend:** React, TypeScript
+- **Database:** PostgreSQL
+- **Cache:** Redis
+- **AI:** OpenAI API
+- **Containerization:** Docker
+- **CI/CD:** GitHub Actions
+
 
 ----------------------------------------------------
 
