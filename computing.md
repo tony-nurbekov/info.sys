@@ -60,6 +60,7 @@ topic into smaller parts in order to understand
 ----------------------------------------------------
 ## Client-server Infrastructure
 ----------------------------------------------------
+*Архитектура: принципы построения клиент-серверных приложений*
 - Virtual Private Server (VPS) 
 - GNU/Linux Ubuntu Server
 *Containers and Virtualization*
@@ -72,8 +73,8 @@ topic into smaller parts in order to understand
 - PostgreSQL, SQLite
 *client.web*
 - React.js
-- Next.js
 - TypeScript
+- Next.js
 - Tailwind.css
 - Graphic: Canvas, GSAP, Three.js, WebGL, Framer Motion, Shadcn/ui
 *client.android*

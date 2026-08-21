@@ -82,7 +82,7 @@ Shymcity-Turan, Bozarik, Dostik, Tassay, Tasken
 - Sportmaster*, Kari, Flo, 
 - Ostin, LC Waikiki, TerraPro
 - SuperStep of shymkentPlaza
-
+- Seendicat, Macan
 
 
 
@@ -170,68 +170,29 @@ https://sts.kz/eshdi/
 
 ## Sci-Fi, Cyberpunk, AI, Hacking films
 
+- [100 величайших научно-фантастических фильмов](https://www.kinopoisk.ru/lists/movies/top_100_scifi_by_total_scifi_online/?utm_referrer=organic.kinopoisk.ru)
 *Философская фантастика*
-- Вечное сияние чистого разума (Eternal Sunshine of the Spotless Mind, 2004)
-- Прибытие (Arrival, 2016)
-- Она (Her, 2013)
-- Из машины (Ex Machina, 2014)
-- Другая Земля (Another Earth, 2011)
-- Луна 2112 (Moon, 2009)
-- Облачный атлас (Cloud Atlas, 2012)
-- Донни Дарко (Donnie Darko, 2001)
-- Двенадцать обезьян (12 Monkeys, 1995)
-- Интерстеллар (Interstellar, 2014)
-- Гравитация (Gravity, 2013)
-*ИИ / технологии / киберпанк*
 - Матрица (The Matrix, 1999)
-- Призрак в доспехах (Ghost in the Shell, 1995)
-- Бегущий по лезвию 2049 (Blade Runner 2049, 2017)
-- Я, робот (I, Robot, 2004)
-- Апгрейд (Upgrade, 2018)
-- Она (Her, 2013)
-- Из машины (Ex Machina, 2014)
-- Акира (Akira, 1988)
-- Эрго Прокси (Ergo Proxy, 2006)
-*Космос / неизвестное / внеземное*
+- Вечное сияние чистого разума (Eternal Sunshine of the Spotless Mind, 2004)
+- Интерстеллар (Interstellar, 2014)
 - Чужой (Alien, 1979) — франшиза
-- Прометей (Prometheus, 2012)
-- Прибытие (Arrival, 2016)
-- Аннигиляция (Annihilation, 2018)
+- Анон (2017)
+- Гравитация (Gravity, 2013)
 - Луна 2112 (Moon, 2009)
+- Из машины (Ex Machina, 2014)
+- Призрак в доспехах (Ghost in the Shell)
+- Апгрейд (Upgrade, 2018)
+- Прометей (Prometheus, 2012)
 - Пекло (Sunshine, 2007)
 - Сквозь горизонт (Event Horizon, 1997)
-- Солярис (Solaris, 1972)
-- Солярис (Solaris, 2002)
-- Контакт (Contact, 1997)
-- Европа (Europa Report, 2013)
-- Фонтан (The Fountain, 2006)
-- Интерстеллар (Interstellar, 2014)
-- Гравитация (Gravity, 2013)
-*Мрачная / странная фантастика*
-- Аннигиляция (Annihilation, 2018)
-- Под кожей (Under the Skin, 2013)
-- Видеодром (Videodrome, 1983)
-- Куб (Cube, 1997)
+- Мистер Робот (Mr. Robot)
 - Пандорум (Pandorum, 2009)
 - Эквилибриум (Equilibrium, 2002)
-- Дитя человеческое (Children of Men, 2006)
-- Донни Дарко (Donnie Darko, 2001)
-- Сквозь горизонт (Event Horizon, 1997)
-*Сериалы — философия / технологии / ИИ*
 - Чёрное зеркало (Black Mirror)
-- Мистер Робот (Mr. Robot)
 - Любовь, смерть и роботы (Love, Death & Robots)
 - Аркейн (Arcane)
-- Уэнздей (Wednesday)
-- Разделение (Severance)
-- Тёмное (Dark)
-- Мир Дикого Запада (Westworld)
-- Годы и годы (Years and Years)
-- Электрические сны Филипа К. Дика (Philip K. Dick's Electric Dreams)
-- Pantheon
-- Scavengers Reign
-- Эксперименты Лэйн (Serial Experiments Lain)
-*ключевые франшизы*
+- Кто я (Who Am I, 2014)
+- Девушка с татуировкой дракона (The Girl with the Dragon Tattoo, 2011)
 - Чужой (Alien)
 - Матрица (The Matrix)
 - Бегущий по лезвию (Blade Runner)
@@ -239,13 +200,9 @@ https://sts.kz/eshdi/
 - Терминатор (The Terminator)
 - Планета обезьян (Planet of the Apes)
 - Дюна (Dune)
-- Анон (2017)
 - Джонни Мнемоник (1995)
 - Обливион (2013)
-- Кто я (Who Am I, 2014)
 - Сеть (The Net, 1995)
-- Девушка с татуировкой дракона (The Girl with the Dragon Tattoo, 2011)
-- Убить Билла? / Blackhat (2015)
 
 
 
@@ -291,9 +248,32 @@ https://sts.kz/eshdi/
 - Mac Quayle - 4.0_13-2.tmp (Unofficial)
 - Carbon Based Lifeforms - Central Plain
 - Holon - This Can Only End In Tears
-
-
-
+----------------------------
+*Kazakh music*
+- KAZMUZ - Не пайда
+- Qarakesek
+- Гаухар Алимбекова
+- Мейір Қайрат - Қинамашы жүректі
+- Нур-Мукасан - Не пайда
+- Қуандық Рахым - Аққуым
+- Сәкен Қалымов - Алтайдың ар жағынан келген ару 
+- Құстар қайтып барады
+- Diana Ismail - Kezdeser
+- Саят Медеуов - Өзіңді аңсап
+- Тоқтар Серік - Сыған серенадасы
+- Торегали Тореали - Қоштасудың қиын-ай
+- Гаухар Сардарбек - Анаға хат 
+- Жұпар Садақбаева - Сағындым сені
+- Аққуым - Мөлдір Бақытжанқызы
+- Макпал Дуйсен - Тамды аруы
+- Медеу Арынбаев
+- Медеу Арынбаев - Дариға жүрек
+- Жігіттер кв - Күрең күз
+- Roza Alqoja - Мен сыйға тартқан орамал
+- Асқар Жүнісбеков - Сен қасымда болмасаң 
+- Құрмаш Маханов - Кездесу мен қоштасу
+----------------------------
+- Adriano Chelentano – La Shate Mi Cantare
 
 
 
