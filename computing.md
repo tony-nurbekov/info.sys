@@ -561,7 +561,7 @@ system's design, implementation, or management that can be exploited by a malici
 - QFIL
 - 3uTools
 - QPST
-- UnlockTool (платный)
+- [UnlockTool](https://unlocktool.net/)
 - Chimera Tool (платный)
 ----------------------------------------------------
 **infosec resource**
@@ -1029,7 +1029,11 @@ Xiaomi, Samsung, D-link, TpLink, Mikrotik, Asus, HP
 * TV Samsung/Xiaomi 2/4K 109cm
 * monitor msi, samsung 2/4K HD,FULLHD-2000
 - Uninterruptible power supply (UPS) Voltage regulator
-
+----------------------------------------------------
+*Ventoy - tool to create bootable USB*
+- Jinn LiveUsb.iso
+- WinPE SergeyStrelec.iso
+- Massgrave Office offline 2016, 2021
 
 
 
@@ -1190,9 +1194,9 @@ Xiaomi, Samsung, D-link, TpLink, Mikrotik, Asus, HP
 
 ## Диагностика Компьютера  x86-64, не включается
 
-1. Возможные причины неисправности
-2. Методы Диагностики
-2. Шаги для исправления неисправности
+- Возможные причины неисправности
+- Методы Диагностики
+- Шаги для исправления неисправности
 ----------------------------------------------------
 1. Розетка + кабель + переключатель БП
 2. Замкнуть контакты Power SW отвёрткой
@@ -1201,7 +1205,7 @@ Xiaomi, Samsung, D-link, TpLink, Mikrotik, Asus, HP
 5. Сброс CMOS батерея
 6. Другая ОЗУ / слот
 7. Проверка МП на повреждения
-Осеовные причины: БП, МП
+- Основные причины: БП, МП
 
 
 
@@ -1222,7 +1226,13 @@ video survellance (IPcam, IPtel) hikvision, HiWatch DS-N332/4 + switch
 
 
 
-
+## Windows version 
+USB/Sources/>ei.cfg:
+```
+[EditionID]
+[Channel]
+Retail
+```
 
 
 
@@ -1234,7 +1244,7 @@ along with advanced troubleshooting.
 - [Microsoft Activation Scripts (MAS) in Github](https://github.com/massgravel/Microsoft-Activation-Scripts.git)
 
 
-
-
+## Windows local user
+- start ms-cxh:localonly
 
 
