@@ -1,11 +1,21 @@
-# awesome computing systems
-
-
-## The Research interests of Computing Information Systems
+# Awesome Computing Information Systems
 
 
 ****************************************************
-## Computing Information Systems
+## The Research interests of Computing Information Systems
+*Configure and Development*
+- Automation & AI
+- Web Development
+- Mobile Development
+- System architecture, Network and Information Security
+----------------------------------------------------
+- Health informatics & Bioinformatics, Neurobiological, Neurology, Cognitive Psychology
+- Configure & Development of cell phones, tablets, laptops
+****************************************************
+
+
+****************************************************
+## Core of Computing Information Systems
 **Information processing**
 - > ReSearch, Analysis
 - Analysis is the process of breaking down a complex 
@@ -32,58 +42,35 @@ topic into smaller parts in order to understand
 ****************************************************
 
 
-
-
-
 ****************************************************
 ## Computing Information Systems Engineering toolkit
-----------------------------------------------------
-**Text Editors and IDE**
-- Command-line interface (CLI), shell, termux
-- Markdown and Obsidian
-- VSCode, JetBrains IDE, Cursor, Android Studio
-- Neovim, Nano, tmux
-- JSON (JavaScript Object Notation)
+- > Automation & AI: AI Agents & AI Agent Skills.md
+- Git/GitHub, Google, OpenAI, Anthropic, x.ai, OpenRouter, Huggingface
+- GNU/Linux x86-64 and Android/IOS arm64
+- BASH/CPP/Kotlin/Python/Swift/PostgreSQL/SQLite         
+- GNU toolchain, Owasp Project, Exploitation and Post-Exploitation toolkit
+- Terminal, VSCode, Android Studio, XCode, Antigravity, Neovim, Nano, Markdown
+- Docker, Docker Compose
+- Client-server Infrastructure Development: Unix Software Labs
 ----------------------------------------------------
 **Cloud computing**
-- Git, GitHub, GitHub Actions
 - DigitalOcean, Vercel, Netlify, Cloudflare
-- Google Workspace: Google Docs Editors, Google Drive
-- cloud.google.com - Cloud Computing Services
+- Google Workspace: cloud.google.com, Google Docs Editors, Google Drive
 - Amazon Web Services (AWS)
 ----------------------------------------------------
 **Graphic Apps**
 - Office - Google Docs Editors, LibreOffice, OpenOffice, MS Office
-- Graph - GIMP, Canva, Pinta, Adobe Photoshop, Acrobat, Adobe Scan, CorelDraw
-- Videos - OpenShot, Shotcut, CapCut, OBS Studio, VLC, K-Lite Codec Pack
-- [Linux Command Library]() - Android app
-----------------------------------------------------
-## Client-server Infrastructure
-----------------------------------------------------
-*Архитектура: принципы построения клиент-серверных приложений*
-- Virtual Private Server (VPS) 
-- GNU/Linux Ubuntu Server
-*Containers and Virtualization*
-- Docker, Docker Compose
-*web.server*
-- Nginx*/Apache/Uvicorn
-*server*
-- Python FastAPI/Flask
-*database*
-- PostgreSQL, SQLite
-*client.web*
-- React.js
-- TypeScript
-- Next.js
-- Tailwind.css
-- Graphic: Canvas, GSAP, Three.js, WebGL, Framer Motion, Shadcn/ui
-*client.android*
-- Android: CPP/Kotlin/Jetpack Compose
-- Material-UI
----
-- IOS: Swift
-- React Native, Flutter
+- Graph - GIMP, Canva, Pinta, Adobe Photoshop, Acrobat, Scan, CorelDraw, Picsart, Figma
+- Videos - Adobe Premiere + Firefly, OpenShot, Shotcut, CapCut, OBS Studio, VLC, K-Lite Codec Pack
+-------------------------------------------------------
+*AI Multimodal Processing*
+- Google AI Studio
+- VideoGen: Google Vids, Veo3, Omni, OpenAI API, Runway, Pika Labs, Higgsfield.ai
+- ImageGen: Nano Banana, Kling, Flux, Diffusers, Stable Diffusion, Midjourney
+- AudioGen: ElevenLabs, Suno 
 ****************************************************
+
+
 
 
 
@@ -406,9 +393,8 @@ Router (NAT): 192.168.0.2:5432(LAN) → 93.184.216.34:6001(WAN)
 - ss, netcat (nc)
 11. Firewall & Packet Filtering
 - ufw, iptables, nftables
-- Wireshark, tcpdump, tshark
 12. Traffic Monitoring
-- iftop, nload, bmon, vnstat, iptraf-ng
+- Wireshark, tcpdump, tshark
 13. Remote Access: OpenSSH, PuTTY, Termius
 14. Network Performance: iperf, iperf3, speedtest-cli
 15. VPN & Tunneling
@@ -442,27 +428,33 @@ Router (NAT): 192.168.0.2:5432(LAN) → 93.184.216.34:6001(WAN)
 - Dynamic analysis (runtime)
 - Decompiler, Disassembler
 ----------------------------------------------------
-In computer security, *vulnerabilities* are flaws or weaknesses in a 
-system's design, implementation, or management that can be exploited by a malicious actor to compromise its security.
+В компьютерной безопасности *уязвимость* — это недостаток 
+или слабость в проектировании, реализации или управлении системой.
+Если ошибка может позволить злоумышленнику скомпрометировать 
+конфиденциальность, целостность или доступность системных ресурсов, 
+её можно считать уязвимостью.
+Без уязвимости эксплойт, как правило, не может получить доступ. 
+Также возможно, что вредоносное ПО может быть установлено напрямую, 
+без эксплойта, посредством социальной инженерии или слабой физической защиты, 
+например, через незапертую дверь или открытый порт.
 - Error, Software bug
 ----------------------------------------------------
 **Threats**
 - Error, Software bug
 > *Shellcode C/CPP/Assembly*
 > remote administration, remote control
+- Exploits advantage of vulnerabilities in software, system and net
 - Backdoor 
 - remote access trojan (RAT)
 - Payload
 - Reverse shell 
 - Malware, Spyware
 - Social engineering
-- Social Networks, Messenger
 - Superuser, root, administrator, admin
 - Malicious applications
 - Malicious links on social networks
 - Privilege escalation
 - Vulnerability, CVE Exploit (flaws or weaknesses)
-- Exploits advantage of vulnerabilities in software, system and net
 - Spoofing attack
 - Sniffing attack (Wireshark, tcpdump)
 - Keystroke loggers
@@ -471,11 +463,10 @@ system's design, implementation, or management that can be exploited by a malici
 - Arbitrary code execution
 - Code injection
 - Cross-site scripting (XSS)
-- Virus
+- SQL injection 
 - Data scraping
 - Eavesdropping, listening
 - Phishing, Vishing
-- SQL injection
 - Rootkit
 - Trojan horse
 - A man-in-the-middle (MITM)
@@ -505,7 +496,7 @@ system's design, implementation, or management that can be exploited by a malici
   * Global network, Web
 2. Mobile security
 ----------------------------------------------------
-*Analyze, Reverse Engineering apps*
+*Analyze, Reverse Engineering*
 - Static analysis
 - Dynamic analysis (runtime)
 - Decompiler, Disassembler
@@ -523,7 +514,6 @@ system's design, implementation, or management that can be exploited by a malici
 - Router Scan, RouterSploit, SearchSploit
 - Wireshark, tcpdump, mitmproxy
 - nmap, masscan, rustscan
-- Social Engineering Toolkit, Maltego, Gophish
 ----------------------------------------------------
 2. Mobile Security tools
 - AArch64, as ARM64, is a 64-bit version of the ARM architecture family
@@ -538,18 +528,19 @@ system's design, implementation, or management that can be exploited by a malici
 - Genymotion
 - Wayland
 - Waydroid 
+*Build tools*	
+- Gradle, Maven, TeamCity
 ----------------------------------------------------
 * [kali tools](https://www.kali.org/tools/all-tools/)
 - MobSF (Mobile Security Framework)
 - Frida & Objection
-- Magisk - Rooting device, Xposed Framework
-- KernelSU - Rooting device
-- OWASP Project
+- Magisk, KernelSU - Rooting device, Xposed Framework
 - Google for Developers - Developer products
 - Vulnerability scanners: Nessus, OWASP ZAP, Core Impact, Netsparker
 - Cracking tools: Medusa, Hyrda, Hashcat и John the Ripper
-- Exploitation: The Metasploit Project, Burp Suite, sqlmap, Veil-Framework, msfvenom
-- Post-Exploitation: Cobalt Strike, Sliver C2, Havoc, Mythic, Empire
+----------------------------------------------------
+- Exploitation: The Metasploit Project, Burp Suite, sqlmap, Veil, SEToolkit, Maltego, Gophish
+- Post-Exploitation: Cobalt Strike, Sliver , Havoc, Mythic, Empire, C2 frameworks
 ----------------------------------------------------
 **Mobile Service Toolkit**
 - ADB/Fastboot
@@ -561,11 +552,10 @@ system's design, implementation, or management that can be exploited by a malici
 - QFIL
 - 3uTools
 - QPST
-- [UnlockTool](https://unlocktool.net/)
 - Chimera Tool (платный)
+- [UnlockTool](https://unlocktool.net/)
 ----------------------------------------------------
 **infosec resource**
-- [Malware Bible](https://bible.perkinsfund.org/)
 - [Malware-Bible](https://github.com/Perkins-Fund/Malware-Bible)
 ----------------------------------------------------
 - [The OWASP Foundation](https://owasp.org/www-community/attacks/Qrljacking)
@@ -584,18 +574,18 @@ system's design, implementation, or management that can be exploited by a malici
 - [blog](https://www.kaspersky.com/blog/)
 ----------------------------------------------------
 - [The 2026 Guide to Cybersecurity](https://www.ibm.com/think/cybersecurity#605511093)
-- [Kuba Gretzky](https://github.com/kgretzky) - reverse engineering and C/C++ dev.
-- [breakdev of Kuba](https://breakdev.org/) - offensive security tools & research
-- [hnews](https://news.ycombinator.com/)
-- [Social_engineering](https://en.wikipedia.org/wiki/Social_engineering_(security))
-- [Awesome Social Engineering](https://github.com/giuliacassara/awesome-social-engineering)
 * [Information security](https://en.wikipedia.org/wiki/Information_security)
+- [hnews](https://news.ycombinator.com/)
+- [Awesome Social Engineering](https://github.com/giuliacassara/awesome-social-engineering)
 * [Black Arch](https://blackarch.org/tools)
 - [kali linux tools russian](https://kali.tools/)
-* [Hacking Articles by Raj Chandel’s Blog](https://hackingarticles.in)
-* [AppSec сообщество - ORDA](https://cyberorda.com/#)
 * [awesome-reverse-engineering](https://github.com/alphaSeclab/awesome-reverse-engineering.git)
 * [awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking.git)
+----------------------------------------------------
+- [Kuba Gretzky](https://github.com/kgretzky) - reverse engineering and C/C++ dev.
+- [breakdev of Kuba](https://breakdev.org/) - offensive security tools & research
+* [Hacking Articles by Raj Chandel’s Blog](https://hackingarticles.in)
+* [AppSec сообщество - ORDA](https://cyberorda.com/#)
 - [4PDA:](https://4pda.to/)
 *Practice Labs & CTFs*
 - [exploit-db](https://www.exploit-db.com/)
@@ -606,15 +596,6 @@ system's design, implementation, or management that can be exploited by a malici
 - [youtube/@elitehack5185](https://youtube.com/@elitehack5185?feature=shared)
 - [youtube/@seccuritytesting](https://youtube.com/@seccuritytesting?si=jMgJJn0a37vZO43h)
 - [White2Hack Storage](https://w2h.tech/)
-----------------------------------------------------
-*Java/kotlin*
-- [Java Compiler (javac)](https://dev.java/)
-- [javase](https://docs.oracle.com/en/java/javase/)
-- [openJDK-Github repo](https://github.com/openjdk)
-- [introcs.cs.princeton.edu/java/11cheatsheet](https://introcs.cs.princeton.edu/java/11cheatsheet/)
-- [dev.java/learn](https://dev.java/learn/getting-started/)
-*Build tools*	
-- Gradle, Maven, TeamCity
 ****************************************************
 
 
@@ -748,7 +729,6 @@ Example:
 замедляет поток воды.
 
 *Светодиод*
-
 Для практики можно использовать простые схемы и компоненты, например, 
 батарейки, резисторы, светодиоды. Отличным началом будет работа с 
 Arduino — это поможет тебе наглядно увидеть, как электричество работает 
@@ -941,21 +921,21 @@ Left/Right
 - [Курсы программирования](https://purpleschool.ru/)
 - [PurpleSchool | Anton Larichev](https://www.youtube.com/@PurpleSchool)
 ----------------------------------------------------
-- ---> computing.book
+- [Linux Command Library](https://linuxcommandlibrary.com/) - Android app
+----------------------------------------------------
+- computing.book
 - [foxford/info](https://foxford.ru/wiki/informatika)
-- [digitalize site](https://digitalize.team) 
-- [youtube/@artsorax](https://www.youtube.com/@artsorax)
-- [YouTube/@Диджитализируй!](https://youtube.com/@t0digital) 
+----------------------------------------------------
+- [Диджитализируй!](https://youtube.com/@t0digital) 
 - [site/to.digital](https://to.digital/) 
-- [youtube/@GNU Linux Pro](https://www.youtube.com/@GNULinuxPro)
-- [youtube/@Alek OS](https://youtube.com/@AlekOS) 
-- [youtube/@Bogdan Stashchuk](www.youtube.com/@Bogdan_Stashchuk)
+- [GNU Linux Pro](https://www.youtube.com/@GNULinuxPro)
+- [Alek OS](https://youtube.com/@AlekOS) 
+- [Bogdan Stashchuk](www.youtube.com/@Bogdan_Stashchuk)
 - [Тимофей Хирьянов](https://www.youtube.com/@tkhirianov) 
-- [Hetman-Software](https://www.youtube.com/@Hetman-Software) 
-- [hetmanrecovery](https://hetmanrecovery.com/ru/support.htm)
+- [artsorax](https://www.youtube.com/@artsorax)
 - [Lex Fridman](https://www.youtube.com/lexfridman) 
+----------------------------------------------------
 - [Hetman Software](https://www.youtube.com/@Hetman-Software/playlists) 
-- [Hetman Software Official](https://hetmanrecovery.com/ru/recovery_news/page/2/)
 - [remontka.pro](https://remontka.pro/)
 ----------------------------------------------------
 - [Wikipedia:Contents/Portals](https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals)
@@ -963,6 +943,10 @@ Left/Right
 - [Wikipedia:Contents/Categories](https://en.wikipedia.org/wiki/Wikipedia:Contents/Categories)
 - [Wikipedia:Featured_articles](https://en.wikipedia.org/wiki/Wikipedia:Featured_articles)
 ----------------------------------------------------
+
+
+
+## Programming Language Resource
 **JavaScript**
 - [mdn.mozilla](https://developer.mozilla.org/ru/) 
 - [w3schools](https://www.w3schools.com/)
@@ -994,6 +978,7 @@ Left/Right
 
 
 
+
 ### Information Systems reSearcher toolkit 
 
 Xiaomi, Samsung, D-link, TpLink, Mikrotik, Asus, HP
@@ -1003,7 +988,6 @@ Xiaomi, Samsung, D-link, TpLink, Mikrotik, Asus, HP
 * коммутатор/switch TP-Link/D-Link/hikvision/HUAWEI/Ubiquiti
 * microprocessors and microcontrollers for creating digital devices
 * programmable microcomputers, Raspberry Pi printed circuit board, Arduino
-* display for text/graphic data processing: micro LED, OLED, TFT
 * Electronic book (устройство, e-book reader) OnyxBoox
 ----------------------------------------------------
 * Multimeter 
@@ -1013,7 +997,6 @@ Xiaomi, Samsung, D-link, TpLink, Mikrotik, Asus, HP
 * USB ethernet/Wireless card supported 5GHz for kali
 * video recorder, IP camera DVR (или IP camera ) hikvision/hiwatch DS-N332 + switch
 * RAM DDR1-5 1300-1600Mhz 
-* flash Sysadmins[Cергей Стрелец]
 * connectors USB/SATA/USB Type-C
 * connectors HDMI > VGA < HDMI
 * connectors - Docking station USB/HDMI/RG45/Type-C
@@ -1030,10 +1013,12 @@ Xiaomi, Samsung, D-link, TpLink, Mikrotik, Asus, HP
 * monitor msi, samsung 2/4K HD,FULLHD-2000
 - Uninterruptible power supply (UPS) Voltage regulator
 ----------------------------------------------------
-*Ventoy - tool to create bootable USB*
-- Jinn LiveUsb.iso
-- WinPE SergeyStrelec.iso
-- Massgrave Office offline 2016, 2021
+*Ventoy bootable USB/SSD*
+- Windows 11
+- Windows 10
+- Ubuntu OS
+- WinPE SergeyStrelec and Hiren
+- MS Office offline of MASSGRAVE
 
 
 

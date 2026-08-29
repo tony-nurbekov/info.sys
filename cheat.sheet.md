@@ -171,11 +171,9 @@ https://sts.kz/eshdi/
 ## Sci-Fi, Cyberpunk, AI, Hacking films
 
 - [100 величайших научно-фантастических фильмов](https://www.kinopoisk.ru/lists/movies/top_100_scifi_by_total_scifi_online/?utm_referrer=organic.kinopoisk.ru)
-*Философская фантастика*
-- Матрица (The Matrix, 1999)
 - Вечное сияние чистого разума (Eternal Sunshine of the Spotless Mind, 2004)
 - Интерстеллар (Interstellar, 2014)
-- Чужой (Alien, 1979) — франшиза
+- Чужой (Alien) — франшиза
 - Анон (2017)
 - Гравитация (Gravity, 2013)
 - Луна 2112 (Moon, 2009)
@@ -193,10 +191,8 @@ https://sts.kz/eshdi/
 - Аркейн (Arcane)
 - Кто я (Who Am I, 2014)
 - Девушка с татуировкой дракона (The Girl with the Dragon Tattoo, 2011)
-- Чужой (Alien)
 - Матрица (The Matrix)
 - Бегущий по лезвию (Blade Runner)
-- Призрак в доспехах (Ghost in the Shell)
 - Терминатор (The Terminator)
 - Планета обезьян (Planet of the Apes)
 - Дюна (Dune)
@@ -215,10 +211,12 @@ https://sts.kz/eshdi/
 - SHENZHEN I/O
 - while True: learn()
 - Grey Hack
+- Hellblade II: Senua’s Saga
+- Stellar Blade
+- Need for Speed Heat
 
 
 # Sci-fi, Cyberpunk music
-
 - P.T. Adamczyk
 - Marcin Przybyłowicz
 - Paul Leonard-Morgan 
@@ -234,20 +232,6 @@ https://sts.kz/eshdi/
 - Lorne Balfe 
 - Sarah Schachner 
 - Bear McCreary
-----------------------------
-- substan - virtual forces
-- Kazukii - Pull
-- 4lienetic - Those Days
-- Apocryphos, Kammarheit, Atrium Carceri - A Lonely Strain
-- substan - elektron digitone
-- Randloev - Thoughts
-- substan - mana machine
-- Overture - Recursion 
-- Mark Petrie - Destiny Falls
-- substan - Ascent To The Summit
-- Mac Quayle - 4.0_13-2.tmp (Unofficial)
-- Carbon Based Lifeforms - Central Plain
-- Holon - This Can Only End In Tears
 ----------------------------
 *Kazakh music*
 - Сәния мен Нұрсымбат - Жолыққан қандай жақсы

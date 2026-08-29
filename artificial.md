@@ -13,37 +13,20 @@ capable of performing functions of human intelligence.
 - Large language model (LLM) - A super text autocomplete system
 - Computer Vision - OpenCV
 ----------------------------------------------------
-**Configure and Development - System architecture, Network and Information Security**
-- > Automation & AI
-- > Web Development
-- > Mobile Development
-- > IT Outsourcing
-----------------------------------------------------
-- > Health informatics & Bioinformatics, Neurobiological, Neurology, Cognitive Psychology
-- > Configure & Development of cell phones, tablets, laptops
-----------------------------------------------------
-- ---> The Wonders of Creation Reveal God’s Glory
-- > AI Agents & AI Agent Skills.md
-- > The Art/Creative Programming with AI Coding Agents
-- > AI Agent for Automation Multimodal Data processing: text, images, audio, video
-- > AI Agent for Automation Office Documents: text, table, PDF, CSV
-- > RAG systems (Retrieval-augmented generation)
-- > Computer Vision, Machine learning (ML)
-----------------------------------------------------
-**Automation & AI**
-- ---> Client-server Infrastructure Development: Unix Software Labs
-- > GNU/Linux x86-64 and Android/IOS arm64
-- > CPP/Kotlin/Python/Swift         
-- > GNU toolchain, Terminal, VSCode, Android Studio, XCode
+- AI Agents & AI Agent Skills.md
+- The Art/Creative Programming with AI Coding Agents
+- AI Agent for Automation Multimodal, Office Data processing: 
+text, images, audio, video, table, PDF, CSV
+- RAG systems (Retrieval-augmented generation)
 ----------------------------
 - ---> [GitHub](https://github.com/) <---
 - ---> [Google AI for Developers](https://ai.google.dev/) <---
-- > [OpenAI for developers](https://developers.openai.com/)
-- > [Anthropic](https://www.anthropic.com/)
-- > [x.ai](https://x.ai/)
-- > [OpenRouter](https://openrouter.ai/)
-- > [Huggingface](https://huggingface.co/)
-- > [CursorAI]()
+- [OpenAI for developers](https://developers.openai.com/)
+- [Anthropic](https://www.anthropic.com/)
+- [x.ai](https://x.ai/)
+- [OpenRouter](https://openrouter.ai/)
+- [Huggingface](https://huggingface.co/)
+- [CursorAI]()
 ----------------------------------------------------
 *Frameworks*
 - [LangChain, LangGraph](https://github.com/langchain-ai)
@@ -57,15 +40,6 @@ capable of performing functions of human intelligence.
 - [Hugging Face](https://github.com/huggingface)
 - [Ollama](https://github.com/ollama)
 - [PerplexityAI](https://github.com/perplexityai)
--------------------------------------------------------
-*AI Multimodal Generation*
-- Google AI Studio
-- VideoGen: Google Vids, Veo3, Omni, OpenAI API, Runway, Pika Labs, Higgsfield.ai
-- ImageGen: Nano Banana, Kling, Flux, Diffusers, Stable Diffusion, Midjourney 
-- VideoEditors: Adobe — Premiere + Firefly Video AI, CapCut AI
-- AudioGen: ElevenLabs / Suno / Udio
-- Graphics: Adobe Firefly, Figma, Canva AI 
-- Awwwards AI TOOLS FOR DESIGNERS
 ****************************************************
 
 

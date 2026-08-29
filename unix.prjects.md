@@ -4,10 +4,41 @@
     - Web and Mobile app
 2. Client-Server Remote administration software
     - Android/IOS Remote Agent
-3. AI Image/Doc Editor
+    - Exploitation and Post-Exploitation toolkit
+    - OWASP Project
+3. AI Agent for Automation Multimodal, Office Data processing: 
+text, images, audio, video, table, PDF, CSV
 
 
-----------------------------------------------------
+
+## Client-server Infrastructure
+
+*Архитектура: принципы построения клиент-серверных приложений*
+- Virtual Private Server (VPS) 
+- GNU/Linux Ubuntu Server
+*Containers and Virtualization*
+- Docker, Docker Compose
+*web.server*
+- Nginx*/Apache/Uvicorn
+*server*
+- Python FastAPI/Flask
+*database*
+- PostgreSQL, SQLite
+*client.web*
+- React.js
+- TypeScript
+- Next.js
+- Tailwind.css
+- Graphic: Canvas, GSAP, Three.js, WebGL, Framer Motion, Shadcn/ui
+*client.android*
+- Android: CPP/Kotlin/Jetpack Compose
+- Material-UI
+---
+- IOS: Swift
+- React Native, Flutter
+
+
+
 # My Project
 
 - Краткое описание
