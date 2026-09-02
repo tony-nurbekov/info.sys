@@ -48,7 +48,7 @@ topic into smaller parts in order to understand
 - Git/GitHub, Google, OpenAI, Anthropic, x.ai, OpenRouter, Huggingface
 - GNU/Linux x86-64 and Android/IOS arm64
 - BASH/CPP/Kotlin/Python/Swift/PostgreSQL/SQLite         
-- GNU toolchain, Owasp Project, Exploitation and Post-Exploitation toolkit
+- GNU toolchain, OWASP Project, Exploitation and Post-Exploitation toolkit
 - Terminal, VSCode, Android Studio, XCode, Antigravity, Neovim, Nano, Markdown
 - Docker, Docker Compose
 - Client-server Infrastructure Development: Unix Software Labs
@@ -470,6 +470,7 @@ Router (NAT): 192.168.0.2:5432(LAN) → 93.184.216.34:6001(WAN)
 - Rootkit
 - Trojan horse
 - A man-in-the-middle (MITM)
+- C2-архитектура (Command & Control)
 *Device*
 - Control, Configure device
 - Program execution, Executable file
@@ -540,7 +541,7 @@ Router (NAT): 192.168.0.2:5432(LAN) → 93.184.216.34:6001(WAN)
 - Cracking tools: Medusa, Hyrda, Hashcat и John the Ripper
 ----------------------------------------------------
 - Exploitation: The Metasploit Project, Burp Suite, sqlmap, Veil, SEToolkit, Maltego, Gophish
-- Post-Exploitation: Cobalt Strike, Sliver , Havoc, Mythic, Empire, C2 frameworks
+- Post-Exploitation: Cobalt Strike, Sliver , Havoc, Mythic, Empire, C2 frameworks, Armitage, Meterpreter
 ----------------------------------------------------
 **Mobile Service Toolkit**
 - ADB/Fastboot
@@ -558,7 +559,8 @@ Router (NAT): 192.168.0.2:5432(LAN) → 93.184.216.34:6001(WAN)
 **infosec resource**
 - [Malware-Bible](https://github.com/Perkins-Fund/Malware-Bible)
 ----------------------------------------------------
-- [The OWASP Foundation](https://owasp.org/www-community/attacks/Qrljacking)
+- [OWASP - Github](https://github.com/OWASP/)
+- [The OWASP attacks](https://owasp.org/www-community/attacks/)
 - [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/stable/)
 - [OWASP Mobile Application Security](https://mas.owasp.org/)
 - [The OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)
@@ -589,6 +591,7 @@ Router (NAT): 192.168.0.2:5432(LAN) → 93.184.216.34:6001(WAN)
 - [4PDA:](https://4pda.to/)
 *Practice Labs & CTFs*
 - [exploit-db](https://www.exploit-db.com/)
+- [MITRE ATT&CK](https://attack.mitre.org/)
 - TryHackMe, Hack The Box, Metasploitable 2 & 3, Root-Me (root-me.org)
 - Hacking: The Art of Exploitation, 2nd Edition, 2018. Erikson, J.
 ----------------------------------------------------
@@ -596,6 +599,19 @@ Router (NAT): 192.168.0.2:5432(LAN) → 93.184.216.34:6001(WAN)
 - [youtube/@elitehack5185](https://youtube.com/@elitehack5185?feature=shared)
 - [youtube/@seccuritytesting](https://youtube.com/@seccuritytesting?si=jMgJJn0a37vZO43h)
 - [White2Hack Storage](https://w2h.tech/)
+----------------------------------------------------
+*C2-Инфраструктура (Command and Control)*
+C2-сервер — управляющий центр вредоносной сети. Через такой сервер хакер 
+отправляет команды заражённым устройствам и получает данные с них.
+После заражения устройство подключается к серверу управления, получает инструкции 
+и выполняет задачи: сбор данных, распространение вредоносного ПО или участие в атаках.
+Атакующие маскируют трафик под обычные веб-запросы, применяют HTTPS, шифрование, 
+генерацию доменов и прокси-серверы.
+Основные компоненты
+- C2 Server / Team Server
+- C2 Client / Operator Console
+- Agent / Beacon / Implant
+- [awesome-command-control](https://github.com/tcostam/awesome-command-control)
 ****************************************************
 
 
@@ -1019,6 +1035,8 @@ Xiaomi, Samsung, D-link, TpLink, Mikrotik, Asus, HP
 - Ubuntu OS
 - WinPE SergeyStrelec and Hiren
 - MS Office offline of MASSGRAVE
+--------------------------------
+- MediaCreationTool 
 
 
 

@@ -76,6 +76,8 @@ text, images, audio, video, table, PDF, CSV
 Сервер отправляет команды, агент (Android Demon/Фоновая Служба) выполняет действия и возвращает результат.
 Постоянное WebSocket-соединение.
 
+C2 server/implant kotlin
+
 **Архитектура**
 
 *Сервер*
