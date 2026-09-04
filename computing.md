@@ -44,18 +44,23 @@ topic into smaller parts in order to understand
 
 ****************************************************
 ## Computing Information Systems Engineering toolkit
-- > Automation & AI: AI Agents & AI Agent Skills.md
+**Automation & AI**: 
+AI Agents & AI Agent Skills.md
 - Git/GitHub, Google, OpenAI, Anthropic, x.ai, OpenRouter, Huggingface
-- GNU/Linux x86-64 and Android/IOS arm64
-- BASH/CPP/Kotlin/Python/Swift/PostgreSQL/SQLite         
-- GNU toolchain, OWASP Project, Exploitation and Post-Exploitation toolkit
-- Terminal, VSCode, Android Studio, XCode, Antigravity, Neovim, Nano, Markdown
+- Language: BASH/CPP/Kotlin/Python/Swift/PostgreSQL/SQLite 
+----------------------------------------------------
+**System architecture, Network and Information Security**
+- System: GNU/Linux x86-64 and Android/IOS arm64
+- Netowork: model OSI and model TCP/IP
+- Infosec: Reverse Engineering, Exploitation, Post-Exploitation, OWASP Project, MITRE ATT&CK
+----------------------------------------------------
+- GNU toolchain, Terminal, VSCode, Android Studio, XCode, Antigravity, Neovim, Nano, Markdown
 - Docker, Docker Compose
 - Client-server Infrastructure Development: Unix Software Labs
 ----------------------------------------------------
 **Cloud computing**
-- DigitalOcean, Vercel, Netlify, Cloudflare
 - Google Workspace: cloud.google.com, Google Docs Editors, Google Drive
+- DigitalOcean, Vercel, Netlify, Cloudflare, ngrok
 - Amazon Web Services (AWS)
 ----------------------------------------------------
 **Graphic Apps**
@@ -63,7 +68,7 @@ topic into smaller parts in order to understand
 - Graph - GIMP, Canva, Pinta, Adobe Photoshop, Acrobat, Scan, CorelDraw, Picsart, Figma
 - Videos - Adobe Premiere + Firefly, OpenShot, Shotcut, CapCut, OBS Studio, VLC, K-Lite Codec Pack
 -------------------------------------------------------
-*AI Multimodal Processing*
+**AI Multimodal Processing**
 - Google AI Studio
 - VideoGen: Google Vids, Veo3, Omni, OpenAI API, Runway, Pika Labs, Higgsfield.ai
 - ImageGen: Nano Banana, Kling, Flux, Diffusers, Stable Diffusion, Midjourney
@@ -150,12 +155,9 @@ results through algorithms and computational operations.
 3. Community libraries, Package
 4. Algorithms and Data Structures
 ----------------------------------------------------
-- > Bash/Python/Kotlin/CPP/PowerShell/HTML/CSS/Javascript/Node.js/PostgreSQL, SQLite
-----------------------------------------------------
 - System Software Unix и GNU/Linux: GNU toolchain, **Ubuntu, Kali, Android** >> 
 - Assembler x86-64, arm64 >> Binary Code (001100) >> RAM|CPU = billion transistors 
 - is a semiconductor device used to amplify or switch electrical signals and power. 
-- Network Technology: model OSI and model TCP/IP >> 
 ****************************************************
 
 ****************************************************
@@ -187,8 +189,6 @@ venv/lib/python3.12/site-packages/     ← venv
 ****************************************************
 *Java - Build tools*	
 - Gradle, Maven, TeamCity
-*IDEs*	
-- Android Studio, Eclipse, IntelliJ IDEA, Visual Studio Code
 ****************************************************
 **JavaScript, TypeScript**
 - [Node.js] - Среда выполнения
@@ -282,22 +282,18 @@ passed directly as the input (stdin) to the next process.
 - [Manuals/Docker Engine](https://docs.docker.com/engine/)
 - [Install Docker Engine](https://docs.docker.com/engine/install/ubuntu/)
 - [download Docker Engine](https://download.docker.com/linux/ubuntu/dists/noble/pool/stable/amd64/)
-- [awesome-docker](https://github.com/veggiemonk/awesome-docker.git) - A curated list of Docker resources and projects
-- [awesome-compose](https://github.com/docker/awesome-compose.git) - Awesome Docker Compose samples
 - [docker-cheat-sheet](https://github.com/wsargent/docker-cheat-sheet.git) - Docker Cheat Sheet
 - [VirtualBox, VMWare, Genymotion, QEMU]
 ----------------------------------------------------
 *Operation system tools*
-- htop – monitoring process and daemon
-- nmon – monitoring systems (CPU, RAM, net, drives).
+- top, htop, nmon – monitoring process and daemon
 - tmux, screen - multisession tools
 ----------------------------------------------------
-- Ansible (software)
+- Ansible
 - Kubernetes
 - Terraform
 ----------------------------------------------------
-*awesome-linux*
-* [awesome-linux](https://github.com/inputsh/awesome-linux.git) 
+*awesome-linux* 
 * [Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software.git) 
 * [awesome-the-secret-book](https://github.com/T-450/the-book-of-secret-knowledge)
 * [awesome-shell](https://github.com/alebcay/awesome-shell.git)
@@ -540,8 +536,8 @@ Router (NAT): 192.168.0.2:5432(LAN) → 93.184.216.34:6001(WAN)
 - Vulnerability scanners: Nessus, OWASP ZAP, Core Impact, Netsparker
 - Cracking tools: Medusa, Hyrda, Hashcat и John the Ripper
 ----------------------------------------------------
-- Exploitation: The Metasploit Project, Burp Suite, sqlmap, Veil, SEToolkit, Maltego, Gophish
-- Post-Exploitation: Cobalt Strike, Sliver , Havoc, Mythic, Empire, C2 frameworks, Armitage, Meterpreter
+- Exploitation: The Metasploit Project, Burp Suite, sqlmap, Veil Frameworks, SEToolkit
+- Post-Exploitation: C2 frameworks - Cobalt Strike, Sliver, Havoc, Mythic, Empire, Armitage
 ----------------------------------------------------
 **Mobile Service Toolkit**
 - ADB/Fastboot
@@ -563,7 +559,6 @@ Router (NAT): 192.168.0.2:5432(LAN) → 93.184.216.34:6001(WAN)
 - [The OWASP attacks](https://owasp.org/www-community/attacks/)
 - [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/stable/)
 - [OWASP Mobile Application Security](https://mas.owasp.org/)
-- [The OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)
 ----------------------------------------------------
 - [Developer products](https://developers.google.com/products)
 - [Android OS Documentation](https://source.android.com/docs)
@@ -577,12 +572,7 @@ Router (NAT): 192.168.0.2:5432(LAN) → 93.184.216.34:6001(WAN)
 ----------------------------------------------------
 - [The 2026 Guide to Cybersecurity](https://www.ibm.com/think/cybersecurity#605511093)
 * [Information security](https://en.wikipedia.org/wiki/Information_security)
-- [hnews](https://news.ycombinator.com/)
-- [Awesome Social Engineering](https://github.com/giuliacassara/awesome-social-engineering)
 * [Black Arch](https://blackarch.org/tools)
-- [kali linux tools russian](https://kali.tools/)
-* [awesome-reverse-engineering](https://github.com/alphaSeclab/awesome-reverse-engineering.git)
-* [awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking.git)
 ----------------------------------------------------
 - [Kuba Gretzky](https://github.com/kgretzky) - reverse engineering and C/C++ dev.
 - [breakdev of Kuba](https://breakdev.org/) - offensive security tools & research
@@ -592,12 +582,10 @@ Router (NAT): 192.168.0.2:5432(LAN) → 93.184.216.34:6001(WAN)
 *Practice Labs & CTFs*
 - [exploit-db](https://www.exploit-db.com/)
 - [MITRE ATT&CK](https://attack.mitre.org/)
-- TryHackMe, Hack The Box, Metasploitable 2 & 3, Root-Me (root-me.org)
+- TryHackMe, Hack The Box, Metasploitable, Root-Me (root-me.org)
 - Hacking: The Art of Exploitation, 2nd Edition, 2018. Erikson, J.
 ----------------------------------------------------
 - [youtube/@kalisploit7368](https://www.youtube.com/@kalisploit7368)
-- [youtube/@elitehack5185](https://youtube.com/@elitehack5185?feature=shared)
-- [youtube/@seccuritytesting](https://youtube.com/@seccuritytesting?si=jMgJJn0a37vZO43h)
 - [White2Hack Storage](https://w2h.tech/)
 ----------------------------------------------------
 *C2-Инфраструктура (Command and Control)*
@@ -1030,8 +1018,7 @@ Xiaomi, Samsung, D-link, TpLink, Mikrotik, Asus, HP
 - Uninterruptible power supply (UPS) Voltage regulator
 ----------------------------------------------------
 *Ventoy bootable USB/SSD*
-- Windows 11
-- Windows 10
+- Windows 10/11
 - Ubuntu OS
 - WinPE SergeyStrelec and Hiren
 - MS Office offline of MASSGRAVE
@@ -1249,5 +1236,15 @@ along with advanced troubleshooting.
 
 ## Windows local user
 - start ms-cxh:localonly
+
+
+## Diskpart
+```
+diskpart
+list disk
+select disk 2
+detail disk
+clean
+```
 
 
