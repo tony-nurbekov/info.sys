@@ -168,7 +168,7 @@ https://sts.kz/eshdi/
 
 
 
-## Sci-Fi, Cyberpunk, AI, Hacking films
+## Sci-Fi, Space, Cyberpunk, AI, Hacking films
 
 - [100 величайших научно-фантастических фильмов](https://www.kinopoisk.ru/lists/movies/top_100_scifi_by_total_scifi_online/?utm_referrer=organic.kinopoisk.ru)
 - Вечное сияние чистого разума (Eternal Sunshine of the Spotless Mind, 2004)
@@ -202,7 +202,7 @@ https://sts.kz/eshdi/
 
 
 
-## Sci-Fi, Cyberpunk, AI, Hacking games
+## Sci-Fi, Space, Cyberpunk, AI, Hacking games
 - Cyberpunk 2077: Phantom Liberty
 - Deus Ex
 - Watch Dogs
@@ -216,7 +216,7 @@ https://sts.kz/eshdi/
 - Need for Speed Heat
 
 
-# Sci-fi, Cyberpunk music
+# Sci-Fi, Space, Cyberpunk, AI, Hacking music
 - P.T. Adamczyk
 - Marcin Przybyłowicz
 - Paul Leonard-Morgan 
