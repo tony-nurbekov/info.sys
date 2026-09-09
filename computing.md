@@ -45,14 +45,15 @@ topic into smaller parts in order to understand
 ****************************************************
 ## Computing Information Systems Engineering toolkit
 **Automation & AI**: 
-AI Agents & AI Agent Skills.md
-- Git/GitHub, Google, OpenAI, Anthropic, x.ai, OpenRouter, Huggingface
+AI Agents & AI Coding Agents with ->
+- Git/GitHub, Anthropic, Google, OpenAI, x.ai, OpenRouter, Huggingface
 - Language: BASH/CPP/Kotlin/Python/Swift/PostgreSQL/SQLite 
 ----------------------------------------------------
 **System architecture, Network and Information Security**
 - System: GNU/Linux x86-64 and Android/IOS arm64
 - Netowork: model OSI and model TCP/IP
-- Infosec: Reverse Engineering, Exploitation, Post-Exploitation, OWASP Project, MITRE ATT&CK
+- Infosec: Reverse Engineering, Exploitation, Post-Exploitation, C2-Инфраструктура (Command and Control)
+- OWASP Project, MITRE ATT&CK
 ----------------------------------------------------
 - GNU toolchain, Terminal, VSCode, Android Studio, XCode, Antigravity, Neovim, Nano, Markdown
 - Docker, Docker Compose

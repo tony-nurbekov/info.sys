@@ -2,10 +2,7 @@
 
 1. Digital agency
     - Web and Mobile app
-2. Client-Server Remote administration software
-    - Android/IOS Remote Agent
-    - Exploitation and Post-Exploitation toolkit
-    - OWASP Project
+2. C2-архитектура (Command & Control) tools for Android/Ubuntu
 3. AI Agent for Automation Multimodal, Office Data processing: 
 text, images, audio, video, table, PDF, CSV
 
@@ -70,6 +67,8 @@ text, images, audio, video, table, PDF, CSV
 
 
 ## Android Remote Agent (ARA)
+
+C2-архитектура (Command & Control) tools for Android/Ubuntu
 
 Клиент-серверное приложение удаленного управления Android-устройствами без root.
 Система должна обеспечивать постоянное защищенное соединение между Android-устройством и сервером под Ubuntu 24.04 LTS.

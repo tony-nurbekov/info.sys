@@ -19,27 +19,27 @@ capable of performing functions of human intelligence.
 text, images, audio, video, table, PDF, CSV
 - RAG systems (Retrieval-augmented generation)
 ----------------------------
-- ---> [GitHub](https://github.com/) <---
-- ---> [Google AI for Developers](https://ai.google.dev/) <---
-- [OpenAI for developers](https://developers.openai.com/)
+- [GitHub Copilot](https://github.com/) 
 - [Anthropic](https://www.anthropic.com/)
+- [Google AI for Developers](https://ai.google.dev/) 
+- [OpenAI for developers](https://developers.openai.com/)
 - [x.ai](https://x.ai/)
 - [OpenRouter](https://openrouter.ai/)
 - [Huggingface](https://huggingface.co/)
-- [CursorAI]()
 ----------------------------------------------------
-*Frameworks*
-- [LangChain, LangGraph](https://github.com/langchain-ai)
-- [LlamaIndex](https://github.com/run-llama/)
-*AI Agents*
-- [OpenClaw](https://github.com/openclaw)
-- [clawhub](https://clawhub.ai/)
-- [hermes-agent](https://github.com/NousResearch/hermes-agent)
 *LLM Hub*
+- [CursorAI]()
 - [OpenRouter, Opencode.ai, Continue.dev]()
 - [Hugging Face](https://github.com/huggingface)
 - [Ollama](https://github.com/ollama)
 - [PerplexityAI](https://github.com/perplexityai)
+*AI Agents*
+- [OpenClaw](https://github.com/openclaw)
+- [clawhub](https://clawhub.ai/)
+- [hermes-agent](https://github.com/NousResearch/hermes-agent)
+*Frameworks*
+- [LangChain, LangGraph](https://github.com/langchain-ai)
+- [LlamaIndex](https://github.com/run-llama/)
 ****************************************************
 
 
@@ -140,11 +140,20 @@ Transformer = система, которая автоматически нахо
 
 
 
+## The must-have markdown files for AI
+
+project/
+- **README.md** — Как запустить и использовать проект?
+- **AGENTS.md** — Как AI должен писать и изменять код?
+- **ARCHITECTURE.md** — Как она устроена?
+- **PRD.md** — Что создаём и зачем?
+- **SPEC.md** — Что система должна делать?
+- **TESTING.md** — Как проверить результат?
+- **Техническое задание (ТЗ)** определяет цель и структуру проекта
 
 
 
-
-## Role Prompting - Formula Universal template
+## Role Prompting - AGENTS.md
 
 > **[Роль / персона] + [Контекст / ситуация] + [Задача] + [Формат / стиль] + [Цель / ограничение]**
 ----------------------------------------------------
@@ -168,7 +177,7 @@ Transformer = система, которая автоматически нахо
 ## Формирование базового навыка
 
 Создать навыки очень просто — достаточно папки с файлом, содержащим метаданные в формате YAML и инструкции. 
-В качестве отправной точки SKILL.mdможно использовать шаблон навыка из этого репозитория:
+В качестве отправной точки SKILL.md можно использовать шаблон навыка из этого репозитория:
 
 
 ---
@@ -176,7 +185,7 @@ name: my-skill-name
 description: A clear description of what this skill does and when to use it
 ---
 
-# My Skill Name
+## My Skill Name
 
 [Add your instructions here that Claude will follow when this skill is active]
 
@@ -190,7 +199,12 @@ description: A clear description of what this skill does and when to use it
 
 
 
+## Prompt example
 
+«Ты — senior Android engineer и software architect. Твоя задача — самостоятельно спроектировать 
+и реализовать production-quality проект X. Перед написанием кода проанализируй требования, 
+предложи архитектуру, создай план реализации, затем последовательно реализуй компоненты, 
+тестируй каждый этап и исправляй ошибки.»
 
 
 
