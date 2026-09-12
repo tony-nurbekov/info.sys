@@ -1,10 +1,9 @@
 # Unix.projects
 
-1. Digital agency
-    - Web and Mobile app
-2. C2-архитектура (Command & Control) tools for Android/Ubuntu
+**Unix.projects**
+1. Digital agency - Web and Mobile app (Client-server Infrastructure)
+2. C2-архитектура (Command & Control) tools for Ubuntu/Android/IOS
 3. AI Agent for Automation Multimodal, Office Data processing: 
-text, images, audio, video, table, PDF, CSV
 
 
 

@@ -153,6 +153,7 @@ project/
 
 
 
+
 ## Role Prompting - AGENTS.md
 
 > **[Роль / персона] + [Контекст / ситуация] + [Задача] + [Формат / стиль] + [Цель / ограничение]**
@@ -201,10 +202,10 @@ description: A clear description of what this skill does and when to use it
 
 ## Prompt example
 
-«Ты — senior Android engineer и software architect. Твоя задача — самостоятельно спроектировать 
+Ты — senior Android engineer и software architect. Твоя задача — самостоятельно спроектировать 
 и реализовать production-quality проект X. Перед написанием кода проанализируй требования, 
 предложи архитектуру, создай план реализации, затем последовательно реализуй компоненты, 
-тестируй каждый этап и исправляй ошибки.»
+тестируй каждый этап и исправляй ошибки.
 
 
 

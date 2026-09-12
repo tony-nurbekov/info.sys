@@ -51,13 +51,12 @@ AI Agents & AI Coding Agents with ->
 ----------------------------------------------------
 **System architecture, Network and Information Security**
 - System: GNU/Linux x86-64 and Android/IOS arm64
-- Netowork: model OSI and model TCP/IP
+- Netowork: model TCP/IP, CLI netTools, Remote administration tools, Virtual private network (VPN)
 - Infosec: Reverse Engineering, Exploitation, Post-Exploitation, C2-Инфраструктура (Command and Control)
-- OWASP Project, MITRE ATT&CK
+- GNU toolchain, OWASP Project, MITRE ATT&CK
 ----------------------------------------------------
-- GNU toolchain, Terminal, VSCode, Android Studio, XCode, Antigravity, Neovim, Nano, Markdown
+- Terminal, VSCode, Android Studio, XCode, Antigravity, Neovim, Nano, Markdown
 - Docker, Docker Compose
-- Client-server Infrastructure Development: Unix Software Labs
 ----------------------------------------------------
 **Cloud computing**
 - Google Workspace: cloud.google.com, Google Docs Editors, Google Drive
@@ -74,6 +73,11 @@ AI Agents & AI Coding Agents with ->
 - VideoGen: Google Vids, Veo3, Omni, OpenAI API, Runway, Pika Labs, Higgsfield.ai
 - ImageGen: Nano Banana, Kling, Flux, Diffusers, Stable Diffusion, Midjourney
 - AudioGen: ElevenLabs, Suno 
+----------------------------------------------------
+**Unix.projects**
+1. Digital agency - Web and Mobile app (Client-server Infrastructure)
+2. C2-архитектура (Command & Control) tools for Ubuntu/Android/IOS
+3. AI Agent for Automation Multimodal, Office Data processing: 
 ****************************************************
 
 
