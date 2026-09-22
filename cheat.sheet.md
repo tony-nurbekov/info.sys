@@ -155,9 +155,6 @@ PREMIUM + выезд = 23 000 ₸
 
 
 
-
-
-
 ## pki.gov
 - pki.gov.kz - Sertificate app
 

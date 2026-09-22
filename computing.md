@@ -54,6 +54,7 @@ AI Agents & AI Coding Agents with ->
 - Netowork: model TCP/IP, CLI netTools, Remote administration tools, Virtual private network (VPN)
 - Infosec: Reverse Engineering, Exploitation, Post-Exploitation, C2-Инфраструктура (Command and Control)
 - GNU toolchain, OWASP Project, MITRE ATT&CK
+- Parental controls: Google Family Link, Apple «Экранное время» (раздел "Семья"), AirDroid
 ----------------------------------------------------
 - Terminal, VSCode, Android Studio, XCode, Antigravity, Neovim, Nano, Markdown
 - Docker, Docker Compose
@@ -67,6 +68,7 @@ AI Agents & AI Coding Agents with ->
 - Office - Google Docs Editors, LibreOffice, OpenOffice, MS Office
 - Graph - GIMP, Canva, Pinta, Adobe Photoshop, Acrobat, Scan, CorelDraw, Picsart, Figma
 - Videos - Adobe Premiere + Firefly, OpenShot, Shotcut, CapCut, OBS Studio, VLC, K-Lite Codec Pack
+- PDF - Adobe Acrobat Pro, Foxit Phantom PDF, LibreOffice Draw, Adobe Scan, PDF-XChange Editor
 -------------------------------------------------------
 **AI Multimodal Processing**
 - Google AI Studio
@@ -79,10 +81,6 @@ AI Agents & AI Coding Agents with ->
 2. C2-архитектура (Command & Control) tools for Ubuntu/Android/IOS
 3. AI Agent for Automation Multimodal, Office Data processing: 
 ****************************************************
-
-
-
-
 
 
 
@@ -325,9 +323,9 @@ USB/HDD/SSD/Google/Dropbox/Yandex Cloud:
 2. Presentation layer: SSL, TLS, MIME, JPEG, GIF
 3. Session layer: Sockets, PPTP, L2TP, NetBIOS, RPC
 4. Transport layer: TCP and UDP
-5. Network layer: IP (IPv4, IPv6), ICMP, IPsec, Router
-6. Data link layer: ARP, MAC, Ethernet, Switch
-7. Physical layer: Twisted pair, Optical fiber, Bluetooth, Wi-Fi, Hubs
+5. Network layer (Router): IP (IPv4, IPv6), ICMP, IPsec
+6. Data link layer (Switch): ARP, MAC, Ethernet
+7. Physical layer (Hubs/0011001): Twisted pair, Optical fiber, Bluetooth, Wi-Fi, 
 ----------------------------------------------------
 - Routing and Switching
 - IP address, Subnet (Mask), Gateway
@@ -413,6 +411,17 @@ Router (NAT): 192.168.0.2:5432(LAN) → 93.184.216.34:6001(WAN)
 **Virtual private network (VPN)**
 - Tailscale, OpenVPN, WireGuard
 ****************************************************
+
+
+
+
+Data link layer: ifconfig, ip, ping, arp
+Physical layer: ethtool
+
+
+
+
+
 
 
 
@@ -935,6 +944,7 @@ Left/Right
 - computing.book
 - [foxford/info](https://foxford.ru/wiki/informatika)
 ----------------------------------------------------
+- [Rebrain — онлайн-практикумы по инфраструктуре](www.youtube.com/@rebrainme)
 - [Диджитализируй!](https://youtube.com/@t0digital) 
 - [site/to.digital](https://to.digital/) 
 - [GNU Linux Pro](https://www.youtube.com/@GNULinuxPro)
