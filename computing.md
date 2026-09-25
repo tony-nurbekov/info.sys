@@ -27,7 +27,7 @@ topic into smaller parts in order to understand
 - Coding theory
 - Info, data processing
 ----------------------------------------------------
-- for collecting, processing, storing and transmitting information.
+- for collecting, processing, storing and transmitting information
 - Boolean algebra (AND/OR/NOT)
 - Boolean Logic (TRUE and FALSE, usually denoted by 1 and 0)
 - Linear algebra
@@ -160,6 +160,7 @@ results through algorithms and computational operations.
 - Assembler x86-64, arm64 >> Binary Code (001100) >> RAM|CPU = billion transistors 
 - is a semiconductor device used to amplify or switch electrical signals and power. 
 ****************************************************
+
 
 ****************************************************
 **Python Language Programming and PyPi libraries**
@@ -411,10 +412,6 @@ Router (NAT): 192.168.0.2:5432(LAN) → 93.184.216.34:6001(WAN)
 ****************************************************
 
 
-
-
-Data link layer: ifconfig, ip, ping, arp
-Physical layer: ethtool
 
 
 
