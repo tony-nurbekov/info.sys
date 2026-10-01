@@ -54,10 +54,11 @@
 
 - **Backend:** Python, FastAPI
 - **Frontend:** React, TypeScript
+- **Containerization:** Docker
+---------------------------------
 - **Database:** PostgreSQL
 - **Cache:** Redis
 - **AI:** OpenAI API
-- **Containerization:** Docker
 - **CI/CD:** GitHub Actions
 
 

@@ -1,53 +1,24 @@
 # Awesome Computing Information Systems
 
 
+
+
+
 ****************************************************
 ## The Research interests of Computing Information Systems
-*Configure and Development*
-- Automation & AI
-- Web Development
-- Mobile Development
-- System architecture, Network and Information Security
-----------------------------------------------------
-- Health informatics & Bioinformatics, Neurobiological, Neurology, Cognitive Psychology
-- Configure & Development of cell phones, tablets, laptops
-****************************************************
-
-
-****************************************************
-## Core of Computing Information Systems
-**Information processing**
-- > ReSearch, Analysis
-- Analysis is the process of breaking down a complex 
-topic into smaller parts in order to understand
-- Searching
-- Sorting
-- Structuring
-- Information theory
-- Coding theory
-- Info, data processing
-----------------------------------------------------
-- for collecting, processing, storing and transmitting information
-- Boolean algebra (AND/OR/NOT)
-- Boolean Logic (TRUE and FALSE, usually denoted by 1 and 0)
-- Linear algebra
-- Configuration, setting
-- Arithmetic logic unit (ALU)
-- Input/Output (I/O)
-- Read/Write (R/W)
-- Cryptography and Encryption
-- Data compression
-- Data Format/transformation
-- Create, read, update(change) and delete
-****************************************************
-
-
-****************************************************
 ## Computing Information Systems Engineering toolkit
-**Automation & AI**: 
-AI Agents & AI Coding Agents with ->
+1. AI Agents & AI Coding Agents with ->
 - Git/GitHub, Anthropic, Google, OpenAI, x.ai, OpenRouter, Huggingface
+2. Algorithms & Programming Science
 - Language: BASH/CPP/Kotlin/Python/Swift/PostgreSQL/SQLite 
+----------------------------------------------------
+**IT Service**
+- Automation & AI
+- Web & Mobile Development
+- IT and Programming Courses, Mentoring
+----------------------------------------------------
+- Configure & Development of cell phones, tablets, laptops
+----------------------------------------------------
 - Terminal, VSCode, Android Studio, XCode, Antigravity, Neovim, Nano, Markdown
 - Docker, Docker Compose
 ----------------------------------------------------
@@ -83,131 +54,16 @@ AI Agents & AI Coding Agents with ->
 
 
 
-****************************************************
-## The Art of Programming
-**Algorithms and Data Structures**
-- Information processes, algorithms (data processing), and data structures (data storage):
-- Algorithms are well-defined steps - 
-    a sequence of actions for solving specific tasks.
-- Data structure - is a data organization and storage 
-    format that is usually chosen for efficient access to data.
-- Algorithms of Sorting and Searching - Universal mechanisms of organizing life.
-----------------------------------------------------
-**Object-oriented programming**
-- Object-oriented programming (OOP) - based on the object, that encapsulates data and function(s).
-- Object - is an entity semantic that has state, behavior, and identity.
-  * Data, Information — information suitable for collection, storage, processing, and transmission.
-    The same data can be encoded in different ways and have different sizes.
-  * Function (also procedure, method or subprogram) is a callable unit of software logic 
-    that has a well-formed interface and behavior and can be invoked multiple times.
-  - Pseudocode for human reading
-**Data and Methods (Functions) of Processing**
-- Data (Information) Processing — the transformation of input data into meaningful 
-results through algorithms and computational operations.
-----------------------------------------------------
-- Data/Instruction
-- Instruction for cumputer - data processing
-----------------------------------------------------
-- Class - (variables) and behavior (methods) 
-- Variable is an abstract storage, contains some quantity of data or object
-- Method is a behavior of an object parametrized by a user.
-----------------------------------------------------
-**1. Programming Fundamentals**
-* Data types
-* Variables
-* Identifier
-* Functions, Methods
-* Conditions (branching)
-* Loops
-* Scope
-* Strings
-* Type conversion
-* Floating-point numbers
-* Negative numbers
-* Overflows
-* Pointers
-* References
-* Interpretation and compilation
-* Garbage collection
----
-**2. Data Structures**
-* Arrays
-* Stack
-* Queue
-* Linked list
-* Hash tables
-* Trees
-* Graphs
-* Matrices
-* Big O notation
-* Bits
----
-**3. Algorithms**
-* Modular programming
-* Recursion
-* Dynamic programming
-* Backtracking
-* Sorting algorithms
-* Greedy algorithms
-----------------------------------------------------
-**Structure Programming**
-1. Syntax (programming languages)
-2. Standard library and frameworks
-3. Community libraries, Package
-4. Algorithms and Data Structures
-----------------------------------------------------
-- System Software Unix и GNU/Linux: GNU toolchain, **Ubuntu, Kali, Android** >> 
-- Assembler x86-64, arm64 >> Binary Code (001100) >> RAM|CPU = billion transistors 
-- is a semiconductor device used to amplify or switch electrical signals and power. 
-****************************************************
 
 
-****************************************************
-**Python Language Programming and PyPi libraries**
-----------------------------------------------------
-- [PyPI](https://pypi.org/)
-- [uv](https://github.com/astral-sh/uv)
-- [python3-venv или conda] - virtual environment
-----------------------------------------------------
-- Package install: pip install requests
-- Package delete: pip uninstall <имя>
-- File requirements: requirements.txt
-- Code Run: python main.py
-----------------------------------------------------
-*The Python Scientific libs*
-- Pandas, NumPy, Matplotlib 
-- SciPy, Biopython 
-- Pygame 
-*The Python image processing*
-- Pillow, scikit-image
-- OpenCV (Open Source Computer Vision Library) 
-----------------------------------------------------
-*Python linux directories*
-/usr/bin/python3.12          ← Interpreter
-/usr/lib/python3.12/         ← standart libs
-/usr/lib/python3/dist-packages/ ← apt packages
-~/.local/lib/python3.12/site-packages/ ← pip
-venv/lib/python3.12/site-packages/     ← venv
-****************************************************
-*Java - Build tools*	
-- Gradle, Maven, TeamCity
-****************************************************
-**JavaScript, TypeScript**
-- [Node.js] - Среда выполнения
-- [npm] - Менеджер пакетов 
-- [npmjs.com](https://www.npmjs.com) - Репозиторий пакетов
-- [npm install <имя>, npm uninstall <имя>]() - Установка, Удаление пакета
-- [package.json] - Файл зависимостей
-- [node_modules] - Виртуальная среда
-****************************************************
+
 
 
 
 
 
 ****************************************************
-## System Software Unix и GNU/Linux 
-**System Software (Operating System Architecture)**
+## System Software (Operating System Architecture)
 - x86-64 (also known as x64, x86_64, AMD64, and Intel 64)
 1. *User Mode*
 - Initialization Daemon (init, systemd) 
