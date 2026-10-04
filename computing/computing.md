@@ -1,6 +1,217 @@
 # Awesome Computing Information Systems
 
 
+# Algorithms for solving problems, The Art of Programming
+
+
+****************************************************
+## IT and Programming Fundamentals
+1. Информация и информационные процессы
+- Информация 
+- Данные
+- Классификация информации
+- Информационные процессы
+- Свойства информации
+- Конфиденциальная информация 
+- Теория кодирования
+----------------------------------------------------
+2. Математические основы вычислений
+- Системы счисления
+- Двоичная система
+- Представление чисел в компьютере
+- Булева алгебра (AND/OR/NOT)
+- Булева логика (TRUE and FALSE, Истина/Ложь, 0/1)
+- Линейная алгебра
+----------------------------------------------------
+3. Архитектура компьютера
+- Клод Шеннон
+- Машина Тьюринга
+- Архитектура фон Неймана
+- Логические элементы
+- Логические схемы
+- Арифметико-логическое устройство (АЛУ)
+- Процессор
+- Регистры
+- Память
+- Шины
+- Машинные команды
+- Представление данных внутри компьютера
+----------------------------------------------------
+4. Алгоритмы
+- Блок-схемы
+- Псевдокод
+- Условия
+- Циклы
+- Рекурсия
+- Декомпозиция задач
+- Сложность алгоритмов
+- Big O
+----------------------------------------------------
+5. Алгоритмы и структуры данных
+- Массив
+- Строка
+- Связный список
+- Стек
+- Очередь
+- Хеш-таблица
+- Дерево
+- Граф
+- Куча
+----------
+**Алгоритмы**
+- Сортировка и Пойск
+----------------------------------------------------
+6. Парадигмы и подходы к программированию
+- Динамическое программирование
+- Алгоритм «разделяй и властвуй»
+- Структурное программирование
+- Объектно-ориентированное программирование
+- Компонентно-ориентированное программирование
+- Событийно-ориентированное программирование
+- Модульное программирование
+----------------------------------------------------
+7. Основы программирования
+- Переменные
+- Типы данных
+- Операторы
+- Выражения
+- Ввод / вывод
+- Условия
+- Циклы
+- Функции
+- Параметры и аргументы
+- Область видимости
+- Пакеты и зависимости
+- Стандартная библиотека
+- Модули
+- Обработка ошибок
+- Работа с файлами
+- Отладка
+- Тестирование
+- Управление памятью
+****************************************************
+
+
+
+
+
+
+
+
+
+
+****************************************************
+## The Art of Programming
+**Algorithms and Data Structures**
+- Information processes, algorithms (data processing), and data structures (data storage):
+- Algorithms are well-defined steps - 
+    a sequence of actions for solving specific tasks.
+- Data structure - is a data organization and storage 
+    format that is usually chosen for efficient access to data.
+- Algorithms of Sorting and Searching - Universal mechanisms of organizing life.
+----------------------------------------------------
+**Object-oriented programming**
+- Object-oriented programming (OOP) - based on the object, that encapsulates data and function(s).
+- Object - is an entity semantic that has state, behavior, and identity.
+  * Data, Information — information suitable for collection, storage, processing, and transmission.
+    The same data can be encoded in different ways and have different sizes.
+  * Function (also procedure, method or subprogram) is a callable unit of software logic 
+    that has a well-formed interface and behavior and can be invoked multiple times.
+  - Pseudocode for human reading
+**Data and Methods (Functions) of Processing**
+- Data (Information) Processing — the transformation of input data into meaningful 
+results through algorithms and computational operations.
+----------------------------------------------------
+- Data/Instruction
+- Instruction for cumputer - data processing
+----------------------------------------------------
+- Class - (variables) and behavior (methods) 
+- Variable is an abstract storage, contains some quantity of data or object
+- Method is a behavior of an object parametrized by a user.
+----------------------------------------------------
+**Structure Programming**
+1. Syntax (programming languages)
+2. Standard library and frameworks
+3. Community libraries, Package
+4. Algorithms and Data Structures
+----------------------------------------------------
+- System Software Unix и GNU/Linux: GNU toolchain, **Ubuntu, Kali, Android** >> 
+- Assembler x86-64, arm64 >> Binary Code (001100) >> RAM|CPU = billion transistors 
+- is a semiconductor device used to amplify or switch electrical signals and power. 
+****************************************************
+
+
+
+
+
+
+
+
+****************************************************
+**Python Language Programming and PyPi libraries**
+----------------------------------------------------
+- [PyPI](https://pypi.org/)
+- [uv](https://github.com/astral-sh/uv)
+- [python3-venv или conda] - virtual environment
+----------------------------------------------------
+- Package install: pip install requests
+- Package delete: pip uninstall <имя>
+- File requirements: requirements.txt
+- Code Run: python main.py
+----------------------------------------------------
+*The Python Scientific libs*
+- Pandas, NumPy, Matplotlib 
+- SciPy, Biopython 
+- Pygame 
+*The Python image processing*
+- Pillow, scikit-image
+- OpenCV (Open Source Computer Vision Library) 
+----------------------------------------------------
+*Python linux directories*
+/usr/bin/python3.12          ← Interpreter
+/usr/lib/python3.12/         ← standart libs
+/usr/lib/python3/dist-packages/ ← apt packages
+~/.local/lib/python3.12/site-packages/ ← pip
+venv/lib/python3.12/site-packages/     ← venv
+****************************************************
+*Java - Build tools*	
+- Gradle, Maven, TeamCity
+****************************************************
+**JavaScript, TypeScript**
+- [Node.js] - Среда выполнения
+- [npm] - Менеджер пакетов 
+- [npmjs.com](https://www.npmjs.com) - Репозиторий пакетов
+- [npm install <имя>, npm uninstall <имя>]() - Установка, Удаление пакета
+- [package.json] - Файл зависимостей
+- [node_modules] - Виртуальная среда
+****************************************************
+
+
+
+
+
+
+****************************************************
+**Object models**
+Each knowledge object:
+* Possesses a state (attributes).
+* Exhibits behavior (methods, actions, functions).
+* Maintains identity (context, uniqueness).
+-------------
+- Information — Action (Nature)
+- Storage — Processing (Neurobiology)
+- Property (Qasiyet) — Action (Activity) (Spirit)
+- Noun — Verb (Part of speech)
+- Data — Function (Programming)
+- Data Structures — Algorithms (Structuring)
+- Properties (States) — Methods (Behavior, OOP), Events
+- Memory (RAM / HDD) — Processor (CPU, Computer)
+****************************************************
+
+
+
+
+
 
 
 
@@ -65,15 +276,17 @@
 ****************************************************
 ## System Software (Operating System Architecture)
 - x86-64 (also known as x64, x86_64, AMD64, and Intel 64)
-1. *User Mode*
+1. *User Space*
 - Initialization Daemon (init, systemd) 
 - System Daemons (sshd, udevd)
 - Window manager (X Window System - X11, Desktop Window Manager)
 - Standard C Library (up to 2000 subroutines)
 - GNU Compiler Collection (GCC) 
 - Low-level API (Windows API, Linux syscalls)
+- Shell — bash, PowerShell, cmd
+- Applications
 ----------------------------------------------------
-2. *Kernel Mode*
+2. *Kernel Space*
 - System calls (about 380)
 - Files and File Systems 
 - Processes and threads 
@@ -85,7 +298,7 @@
 - Network Subsystem
 * Portable Executable
 * Executable and Linkable Format
-* Interrupts
+- Interrupt
 ----------------------------------------------------
 **Daemon (computing)**
 - systemd is a software suite for system and service management on Linux
@@ -472,29 +685,19 @@ C2-сервер — управляющий центр вредоносной с�
 
 
 ****************************************************
-### computing machine arcgitecture
-- Von Neumann architecture – joint storage of programs and data
-- Turing machine – a general example of a central processor
-- Turing completeness – actions, functions, methods, variables, branching, loops
-- Claude Shannon - author of Information theory 
-- Alan Turing - the father of theoretical computer science, algorithms and computation.
-- Tim Berners-Lee – inventor of the World Wide Web, HTML, the URL system, and HTTP.
-- Code: The Hidden Language of Computer Hardware and Software (1999) is a book by Charles Petzold
-----------------------------------------------------
-1. Theory of Computer Science
-* Number systems
-* Boolean algebra
-* Memory
-* Units of measurement
-* Processor
-* Program execution model
-* Computer boot process
-* Creating an assembler
-* Instruction set architecture
-* Processor operating modes
-* General-purpose registers
-* Opcodes
-* Data transfer
+### Архитектура компьютера
+- Клод Шеннон
+- Машина Тьюринга
+- Архитектура фон Неймана
+- Логические элементы
+- Логические схемы
+- Арифметико-логическое устройство (АЛУ)
+- Процессор
+- Регистры
+- Память
+- Шины
+- Машинные команды
+- Представление данных внутри компьютера
 ----------------------------------------------------
 - Computing Machine is a machine that processes data according 
 to a set of instructions called a computer program.
@@ -503,11 +706,6 @@ performs high-speed arithmetic calculations, logical operations,
 or stores, processes, and transmits information.
 - Calculation is a mathematical transformation that allows one to transform
 an incoming stream of information into an output stream with a different structure.
-----------------------------------------------------
-**Hardware**
-- Storage: Memory (RAM/HDD)
-- Processing: Microprocessors(CPU) - Arithmetic logic unit (ALU)
-- Intelligence: Focus on the important (Attention)
 ----------------------------------------------------
 **Electronic components**
 *Microprocessors(CPU)*
