@@ -36,6 +36,11 @@
 - Шины
 - Машинные команды
 - Представление данных внутри компьютера
+*Системные уровни (от софта к железу)*
+- Операционные системы: Среда выполнения (Unix, GNU/Linux, Ubuntu, Android).
+- Языки низкого уровня: Ассемблер (x86-64, arm64), который переводит код человека в бинарный код (001100).
+- Аппаратный уровень: Процессор (CPU) и оперативная память (RAM), состоящие из миллиардов транзисторов — 
+полупроводников, которые управляют электрическими сигналами.
 ----------------------------------------------------
 4. Алгоритмы
 - Блок-схемы
@@ -44,10 +49,13 @@
 - Циклы
 - Рекурсия
 - Декомпозиция задач
-- Сложность алгоритмов
 - Big O
 ----------------------------------------------------
 5. Алгоритмы и структуры данных
+* Алгоритм — это четкая последовательность действий для решения задачи.
+* Структура данных — формат организации и хранения данных для эффективного доступа к ним.
+* Сортировка и поиск — фундаментальные механизмы для наведения порядка в данных.
+*Структура данных*
 - Массив
 - Строка
 - Связный список
@@ -89,55 +97,7 @@
 - Отладка
 - Тестирование
 - Управление памятью
-****************************************************
-
-
-
-
-
-
-
-
-
-
-****************************************************
-## The Art of Programming
-**Algorithms and Data Structures**
-- Information processes, algorithms (data processing), and data structures (data storage):
-- Algorithms are well-defined steps - 
-    a sequence of actions for solving specific tasks.
-- Data structure - is a data organization and storage 
-    format that is usually chosen for efficient access to data.
-- Algorithms of Sorting and Searching - Universal mechanisms of organizing life.
-----------------------------------------------------
-**Object-oriented programming**
-- Object-oriented programming (OOP) - based on the object, that encapsulates data and function(s).
-- Object - is an entity semantic that has state, behavior, and identity.
-  * Data, Information — information suitable for collection, storage, processing, and transmission.
-    The same data can be encoded in different ways and have different sizes.
-  * Function (also procedure, method or subprogram) is a callable unit of software logic 
-    that has a well-formed interface and behavior and can be invoked multiple times.
-  - Pseudocode for human reading
-**Data and Methods (Functions) of Processing**
-- Data (Information) Processing — the transformation of input data into meaningful 
-results through algorithms and computational operations.
-----------------------------------------------------
-- Data/Instruction
-- Instruction for cumputer - data processing
-----------------------------------------------------
-- Class - (variables) and behavior (methods) 
-- Variable is an abstract storage, contains some quantity of data or object
-- Method is a behavior of an object parametrized by a user.
-----------------------------------------------------
-**Structure Programming**
-1. Syntax (programming languages)
-2. Standard library and frameworks
-3. Community libraries, Package
-4. Algorithms and Data Structures
-----------------------------------------------------
-- System Software Unix и GNU/Linux: GNU toolchain, **Ubuntu, Kali, Android** >> 
-- Assembler x86-64, arm64 >> Binary Code (001100) >> RAM|CPU = billion transistors 
-- is a semiconductor device used to amplify or switch electrical signals and power. 
+- Интерпретация и Компиляция
 ****************************************************
 
 
@@ -190,78 +150,6 @@ venv/lib/python3.12/site-packages/     ← venv
 
 
 
-
-****************************************************
-**Object models**
-Each knowledge object:
-* Possesses a state (attributes).
-* Exhibits behavior (methods, actions, functions).
-* Maintains identity (context, uniqueness).
--------------
-- Information — Action (Nature)
-- Storage — Processing (Neurobiology)
-- Property (Qasiyet) — Action (Activity) (Spirit)
-- Noun — Verb (Part of speech)
-- Data — Function (Programming)
-- Data Structures — Algorithms (Structuring)
-- Properties (States) — Methods (Behavior, OOP), Events
-- Memory (RAM / HDD) — Processor (CPU, Computer)
-****************************************************
-
-
-
-
-
-
-
-
-****************************************************
-## The Research interests of Computing Information Systems
-## Computing Information Systems Engineering toolkit
-1. AI Agents & AI Coding Agents with ->
-- Git/GitHub, Anthropic, Google, OpenAI, x.ai, OpenRouter, Huggingface
-2. Algorithms & Programming Science
-- Language: BASH/CPP/Kotlin/Python/Swift/PostgreSQL/SQLite 
-----------------------------------------------------
-**IT Service**
-- Automation & AI
-- Web & Mobile Development
-- IT and Programming Courses, Mentoring
-----------------------------------------------------
-- Configure & Development of cell phones, tablets, laptops
-----------------------------------------------------
-- Terminal, VSCode, Android Studio, XCode, Antigravity, Neovim, Nano, Markdown
-- Docker, Docker Compose
-----------------------------------------------------
-**System architecture, Network and Information Security**
-- System: GNU/Linux x86-64 and Android/IOS arm64
-- Netowork: model TCP/IP, CLI netTools, Remote administration tools, Virtual private network (VPN)
-- Infosec: Offensive Security, Red Teaming, Reverse Engineering, C2(Command and Control),  Post-Exploitation
-- GNU toolchain, OWASP Project, MITRE ATT&CK
-- Parental controls: Google Family Link, Apple (Экранное время, раздел Семья), AirDroid
-----------------------------------------------------
-**Cloud computing**
-- Google Workspace: cloud.google.com, Google Docs Editors, Google Drive
-- DigitalOcean, Vercel, Netlify, Cloudflare, ngrok
-- Amazon Web Services (AWS)
-----------------------------------------------------
-**Graphic Apps**
-- Office - Google Docs Editors, LibreOffice, OpenOffice, MS Office
-- Graph - GIMP, Canva, Pinta, Adobe Photoshop, Acrobat, Scan, CorelDraw, Picsart, Figma
-- Videos - Adobe Premiere + Firefly, OpenShot, Shotcut, CapCut, OBS Studio, VLC, K-Lite Codec Pack
-- PDF - Adobe Acrobat Pro, Foxit Phantom PDF, LibreOffice Draw, Adobe Scan, PDF-XChange Editor
--------------------------------------------------------
-**AI Multimodal Processing**
-- Google AI Studio
-- VideoGen: Google Vids, Veo3, Omni, OpenAI API, Runway, Pika Labs, Higgsfield.ai
-- ImageGen: Nano Banana, Kling, Flux, Diffusers, Stable Diffusion, Midjourney
-- AudioGen: ElevenLabs, Suno 
-----------------------------------------------------
-**Unix.projects**
-1. Digital agency - Web and Mobile app (Client-server Infrastructure)
-2. C2-архитектура (Command & Control) tools for Ubuntu/Android/IOS
-3. AI Agent for Automation Multimodal, Office Data processing
-****************************************************
 
 
 
@@ -386,6 +274,34 @@ USB/HDD/SSD/Google/Dropbox/Yandex Cloud:
 
 ****************************************************
 ## Network Technology
+1. Архитектура и базовые понятия сетей
+- Локальная сеть (Local Area Network - LAN)
+- Глобальная сеть (Wide Area Network - WAN)
+- Клиент и сервер (Client / Server)
+- Сетевой протокол (Network Protocol)
+- Сетевая модель OSI, модель TCP/IP
+- Инкапсуляция/ДеИнкапсуляция
+- Маршрутизация и коммутация (Routing and Switching)
+- Network address translation (NAT)
+- Топология сети (Network Topology) - Шина, Звезда, Кольцо
+----------------------------------------------------
+2. Сетевая адресация
+- IP-адрес (IP Address), Маска подсети (Subnet Mask), Шлюз (Gateway)
+- MAC-адрес 
+- ARP-таблица
+----------------------------------------------------
+3. Передача данных
+- Сетевой пакет (Network Packet)
+- Сегмент (Segment)
+- Датаграмма (Datagram)
+- Кадр (Frame)
+- Файрвол (межсетевой экран или брандмауэр)
+- Virtual private network (VPN), OpenVPN, WireGuard
+- Port forwarding - iptables, ufw (Uncomplicated Firewall), ngrok
+4. Транспорт и соединения
+- Порт (Port)
+- Сокет (Socket)
+----------------------------------------------------
 **model OSI and model TCP/IP**
 1. Application layer: HTTPS, FTP, DNS, DHCP, Telnet, SSH, Secure Shell, SMTP, SMB
 2. Presentation layer: SSL, TLS, MIME, JPEG, GIF
@@ -395,34 +311,26 @@ USB/HDD/SSD/Google/Dropbox/Yandex Cloud:
 6. Data link layer (Switch): ARP, MAC, Ethernet
 7. Physical layer (Hubs/0011001): Twisted pair, Optical fiber, Bluetooth, Wi-Fi, 
 ----------------------------------------------------
-- Routing and Switching
-- IP address, Subnet (Mask), Gateway
-- Network address translation (NAT)
-- ARP table, MAC address
-- Firewall - iptables, nftables
-- Virtual private network (VPN), OpenVPN, WireGuard
-- Port forwarding - iptables, ufw (Uncomplicated Firewall), ngrok
-- Network packet IPv4
 - Virtual Private Server (VPS)
 - Google Drive, Dropbox, Yandex Disk
 - cloud.google.com - Cloud Computing Services
 ----------------------------------------------------
-**activ hardware network tools**
-* net controller 
-* Router 
-* switch, Hub: Unmanaged and Managed switches:
+**Активное сетевое оборудование**
+* Сетевой контроллер (Net Controller / NIC)
+* Маршрутизатор (Router) 
+* Коммутатор (Switch) и Хаб (Hub)
   * CLI, SNMP agent and web interface
-* Wireless access point (AP)
-* Repeater
-* Fiber media-Converter
+* Беспроводная точка доступа (Wireless Access Point — AP)
+* Повторитель (Repeater)
+* Оптический медиаконвертер (Fiber Media-Converter)
 * Brand network hardware: TP-Link, D-Link, hikvision, HUAWEI
 ----------------------------------------------------
-**passive hardware network tools**
-* Twisted pair, Cable UTP, FTP Сat5e
-* Modular connector
-* Optical fiber SFP
-* IP telephony
-* Mobile networking GSM, UMTS, LTE
+**Пассивное сетевое оборудование**
+* Кабели связи (Витая пара), Cable UTP, FTP Сat5e
+* Модульный разъем (Modular Connector)
+* Оптическое волокно и SFP-модули (Optical fiber & SFP)
+* IP-телефония (VoIP)
+* Мобильные сети (Mobile Networking) GSM, UMTS, LTE
 ----------------------------------------------------
 - Network address translation (NAT) - Transformation 
 Local area network (LAN) => в Wide area network (WAN).
@@ -478,6 +386,24 @@ Router (NAT): 192.168.0.2:5432(LAN) → 93.184.216.34:6001(WAN)
 ----------------------------------------------------
 **Virtual private network (VPN)**
 - Tailscale, OpenVPN, WireGuard
+----------------------------------------------------
+**Маршрутизация и коммутация**
+Маршрутизация и коммутация — это два основных процесса для передачи данных в компьютерных сетях, 
+которые работают на разных уровнях модели OSI.
+Главные различия
+* Коммутация (создание связи внутри сети):
+	- Уровень OSI: Канальный (L2)
+	- Адресация: Использует MAC-адреса (физические адреса устройств)
+	- Задача: Соединяет устройства (компьютеры, принтеры) в пределах одной локальной сети (LAN)
+	- Оборудование: Коммутатор (свитч) пересылает кадры данных только на тот порт, к которому подключен нужный адресат
+* Маршрутизация (связь между сетями):
+	- Уровень OSI: Сетевой (L3) и выше.
+	- Адресация: Использует IP-адреса (логические адреса узлов).
+	- Задача: Находит оптимальный путь и передает пакеты между разными сетями (например, из локальной сети в интернет или между офисами)
+	- Оборудование: Маршрутизатор (роутер) соединяет разные сети, выполняет трансляцию адресов (NAT) и фильтрует трафик через брандмауэр
+*Как они работают вместе*
+В реальных сетях коммутаторы объединяют компьютеры внутри кабинетов и этажей, а маршрутизатор служит главным шлюзом, 
+выпускающим этот локальный трафик во внешнюю глобальную сеть.
 ****************************************************
 
 
@@ -493,14 +419,15 @@ Router (NAT): 192.168.0.2:5432(LAN) → 93.184.216.34:6001(WAN)
 
 ****************************************************
 ## Information Security, Offensive security, Red teaming, Penetration testing
-- Confidentiality
-- Integrity
-- Availability
+- Конфиденциальность
+- Целостность
+- Доступность
 ----------------------------------------------------
-*Analyze, Reverse Engineering*
-- Static analysis (source code)
-- Dynamic analysis (runtime)
-- Decompiler, Disassembler
+*Анализ, обратная инженерия (Analyze, Reverse Engineering)*
+- Статический анализ (Static Analysis) — анализ исходного кода без выполнения программы
+- Динамический анализ (Dynamic Analysis) — анализ программы во время её выполнения
+- Декомпилятор (Decompiler) — преобразует исполняемый код в код, близкий к исходному
+- Дизассемблер (Disassembler) — преобразует машинный код в инструкции языка ассемблера
 ----------------------------------------------------
 В компьютерной безопасности *уязвимость* — это недостаток 
 или слабость в проектировании, реализации или управлении системой.
@@ -513,82 +440,52 @@ Router (NAT): 192.168.0.2:5432(LAN) → 93.184.216.34:6001(WAN)
 например, через незапертую дверь или открытый порт.
 - Error, Software bug
 ----------------------------------------------------
-**Threats**
-- Error, Software bug
-> *Shellcode C/CPP/Assembly*
-> remote administration, remote control
-- Exploits advantage of vulnerabilities in software, system and net
-- Backdoor 
-- remote access trojan (RAT)
-- Payload
-- Reverse shell 
-- Malware, Spyware
-- Social engineering
-- Superuser, root, administrator, admin
-- Malicious applications
-- Malicious links on social networks
-- Privilege escalation
-- Vulnerability, CVE Exploit (flaws or weaknesses)
-- Spoofing attack
-- Sniffing attack (Wireshark, tcpdump)
-- Keystroke loggers
-- Denial-of-service attack (DOS)
-- Adware
-- Arbitrary code execution
-- Code injection
-- Cross-site scripting (XSS)
-- SQL injection 
-- Data scraping
-- Eavesdropping, listening
-- Phishing, Vishing
-- Rootkit
-- Trojan horse
-- A man-in-the-middle (MITM)
-- C2-архитектура (Command & Control)
+**Угрозы**
+* Ошибка, программная ошибка (Error, Software bug)
+- Shellcode — машинный код/скрипт на C/C++/Assembly
+- Бэкдор (Backdoor) — скрытый механизм доступа к системе
+- Удалённый троян (RAT, Remote Access Trojan) — вредоносная программа для удалённого доступа и управления
+- Полезная нагрузка (Payload) — код или действие, выполняемое после успешной эксплуатации уязвимости
+- Обратная оболочка (Reverse Shell) — удалённая командная оболочка, инициируемая скомпрометированной системой
+- Вредоносное ПО (Malware), шпионское ПО (Spyware)
+- Социальная инженерия (Social Engineering)
+- Суперпользователь (Superuser), root, администратор (Administrator, Admin)
+- Повышение привилегий (Privilege Escalation)
+- Уязвимость (Vulnerability), CVE, эксплойт (Exploit) — недостатки или слабые места в программном обеспечении, системе или сети
+- Атака подмены (Spoofing Attack)
+- Атака перехвата сетевого трафика (Sniffing Attack)
+- Кейлоггер / перехват нажатий клавиш (Keystroke Logger)
+- Отказ в обслуживании (DoS, Denial-of-Service Attack)
+- Межсайтовый скриптинг (XSS, Cross-Site Scripting)
+- SQL-инъекция (SQL Injection)
+- Сбор данных (Data Scraping)
+- Подслушивание, перехват коммуникаций (Eavesdropping, Listening)
+- Фишинг (Phishing), голосовой фишинг (Vishing)
+- Атака человек посередине (MITM, Man-in-the-Middle)
+- Архитектура C2 (Command & Control) — архитектура командования и управления
 *Device*
-- Control, Configure device
-- Program execution, Executable file
-- EDR/AV bypasses: C, ASM, obfuscation, encryption.
-- Static/Dynamic analysis
-- QRLJacking (Quick Response Code Login Jacking)
+- Обход EDR/AV (EDR/AV Bypasses) — C, ASM, обфускация, шифрование
+- Выполнение программ (Program Execution), исполняемый файл (Executable File)
+- Статический / динамический анализ (Static / Dynamic Analysis)
 ----------------------------------------------------
-**Defenses**
-- Antivirus software
-- Authentication, Multi-factor authentication
-- Authorization
-- Obfuscation (software)
-- Encryption
-- Firewall - controls network traffic 
-- Intrusion detection system (IDS)
+**Защита**
+- Антивирусное программное обеспечение (Antivirus Software)
+- Аутентификация (Authentication) — подтверждение личности пользователя
+- Многофакторная аутентификация (Multi-Factor Authentication, MFA)
+- Авторизация (Authorization) — определение прав и уровня доступа пользователя
+- Обфускация (Software Obfuscation) — усложнение анализа и понимания исходного или исполняемого кода
+- Шифрование (Encryption) — преобразование данных в защищённый вид
+- Межсетевой экран / брандмауэр (Firewall) — контролирует сетевой трафик
+- Система обнаружения вторжений (IDS, Intrusion Detection System) — обнаруживает подозрительную активность в системе
 **Antivirus software**
 1. Microsoft Defender (Basic security, Antivirus + Firewall)
 2. Kaspersky Small Office Security (Усиленная защита)
-- [Калькулятор стоймости Лицензии](https://www.kaspersky.kz/business/small-office-security)
-----------------------------------------------------
-**The Must-Have security**
-1. Network, Web security
-  * Local network
-  * Global network, Web
-2. Mobile security
 ----------------------------------------------------
 *Analyze, Reverse Engineering*
-- Static analysis
-- Dynamic analysis (runtime)
-- Decompiler, Disassembler
-------------
 - Ghidra, x64dbg and Interactive Disassembler (IDA Free) 
 - Bytecode Viewer, Smali/Baksmali - analyze dalvik-byte code
 - Radare2, GDB, QEMU, Strace, Ltrace, objdump, readelf
 - JADX, Apktool - decompile Java code
-----------------------------------------------------
-1. Network, Web security
-- OWASP Project - Web and Mobile security
-- Burp Suite - Web Penetration test
-- Aircrack-ng, Bettercap, Fluxion
-- hostapd, dnsmasq
-- Router Scan, RouterSploit, SearchSploit
-- Wireshark, tcpdump, mitmproxy
-- nmap, masscan, rustscan
 ----------------------------------------------------
 2. Mobile Security tools
 - AArch64, as ARM64, is a 64-bit version of the ARM architecture family
@@ -607,28 +504,14 @@ Router (NAT): 192.168.0.2:5432(LAN) → 93.184.216.34:6001(WAN)
 - Gradle, Maven, TeamCity
 ----------------------------------------------------
 * [kali tools](https://www.kali.org/tools/all-tools/)
-- MobSF (Mobile Security Framework)
+- OWASP Project, Burp Suite, MobSF (Mobile Security Framework)
 - Frida & Objection
 - Magisk, KernelSU - Rooting device, Xposed Framework
 - Google for Developers - Developer products
 - Vulnerability scanners: Nessus, OWASP ZAP, Core Impact, Netsparker
-- Cracking tools: Medusa, Hyrda, Hashcat и John the Ripper
 ----------------------------------------------------
 - Exploitation: The Metasploit Project, Burp Suite, sqlmap, Veil Frameworks, SEToolkit
 - Post-Exploitation: C2 frameworks - Cobalt Strike, Sliver, Havoc, Mythic, Empire, Armitage
-----------------------------------------------------
-**Mobile Service Toolkit**
-- ADB/Fastboot
-- Odin
-- iTunes
-- SamFW Tool
-- Mi Flash Tool
-- SP Flash Tool
-- QFIL
-- 3uTools
-- QPST
-- Chimera Tool (платный)
-- [UnlockTool](https://unlocktool.net/)
 ----------------------------------------------------
 **infosec resource**
 - [Malware-Bible](https://github.com/Perkins-Fund/Malware-Bible)
@@ -686,15 +569,18 @@ C2-сервер — управляющий центр вредоносной с�
 
 ****************************************************
 ### Архитектура компьютера
+- Архитектура фон Неймана
 - Клод Шеннон
 - Машина Тьюринга
-- Архитектура фон Неймана
 - Логические элементы
 - Логические схемы
 - Арифметико-логическое устройство (АЛУ)
-- Процессор
+- Центральный процессор (CPU)
 - Регистры
-- Память
+- Оперативная память (RAM)
+- Внешняя память (HDD/SSD) 
+- Системная плата (материнская плата)
+- компоненты ввода (клавиатура, мышь) и вывода (монитор, принтер) данных
 - Шины
 - Машинные команды
 - Представление данных внутри компьютера
@@ -791,9 +677,9 @@ Example:
 воды по трубе.
 - Сила Тока
 - Проводник тока
-- Напряжение — это сила, которая "толкает" электроны, как давление воды.
+- Напряжение — это сила, которая "толкает" электроны, как давление воды
 - Сопротивление  — это то, что замедляет движение тока, как узкая труба 
-замедляет поток воды.
+замедляет поток воды
 
 *Светодиод*
 Для практики можно использовать простые схемы и компоненты, например, 
@@ -954,7 +840,6 @@ The Best Удлинитель (не сетевой фильтр), с сечен�
 ## Обработка звуковой инфо = микшер
 
 - микшер = ввод/вывод 
-- mixer = input/output info
 - input/output/processing
 - ввод/вывод/обработка
 - микрофон/колонка/эквалайзер
@@ -1241,7 +1126,19 @@ Xiaomi, Samsung, D-link, TpLink, Mikrotik, Asus, HP
 
 
 
+## Mobile Service Toolkit
 
+- ADB/Fastboot
+- Odin
+- iTunes
+- SamFW Tool
+- Mi Flash Tool
+- SP Flash Tool
+- QFIL
+- 3uTools
+- QPST
+- Chimera Tool (платный)
+- [UnlockTool](https://unlocktool.net/)
 
 
 
