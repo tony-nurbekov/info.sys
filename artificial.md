@@ -1,4 +1,4 @@
-# Awesome Artificial Systems
+# Awesome AI & Automation
 
 
 ****************************************************

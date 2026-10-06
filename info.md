@@ -1,15 +1,18 @@
-# Awesome Information Systems 
+# Awesome Information 
+
+- Информация
+- Данные
+- Классификация информации
+- Информационные процессы
+- Свойства информации
+- Конфиденциальная информация 
+- Теория кодирования
 
 
-1. Информация, Данные
-2. Классификация информации
-3. Информационные процессы
-4. Конфиденциальная информация 
 
 
-
-****************************************************
 ## 1. Информация, Данные
+
 1. Information (from Latin informatio – “explanation”) – 
 Data about the surrounding world and the processes occurring in it, 
 perceived by a human or a device.
@@ -17,12 +20,12 @@ perceived by a human or a device.
 that convey information, describing the quantity, quality, fact, statistics
 Данные — это любая информация, представленная в таком виде, который удобен для 
 автоматической обработки, хранения и передачи с использованием компьютерных технологий.
-****************************************************
 
 
 
 
-****************************************************
+
+
 ## 2. Классификация информации
 
 * По значимости — важная, ценная, актуальная, достоверная
@@ -32,7 +35,7 @@ that convey information, describing the quantity, quality, fact, statistics
 * По достоверности — истинная, ложная
 * По объёму/масштабу — малая, средняя, большая, массивная
 
-----------------------------------------------------
+
 
 Информацию можно разделить на виды по различным критериям:
 
@@ -77,12 +80,13 @@ that convey information, describing the quantity, quality, fact, statistics
 **По истинности**- 
 - Истинная.
 - Ложная.
-****************************************************
 
 
 
-****************************************************
+
+
 ## 3. Информационные процессы
+
 - > Исследование, 
 - > Анализ
 - Analysis is the process of breaking down a complex 
@@ -99,15 +103,16 @@ topic into smaller parts in order to understand
 - Сжатие
 - Форматирование, Преобразование
 - Создание, Чтение, Обнавление, Удаление (CRUD)
-****************************************************
 
 
 
 
 
 
-****************************************************
+
+
 ## 4. Конфиденциальная информация
+
 1. Personal Identification Data
 - Passport details  
 - IIN number 
@@ -148,12 +153,17 @@ topic into smaller parts in order to understand
 * Messenger: telegram, whatsApp account
 * Site visit logs, Cookies, metadata
 * Social network: instagram, tiktok, youtube
-****************************************************
 
 
 
 
+## Ресурсы
 
+- [foxford/info](https://foxford.ru/wiki/informatika)
+- [Wikipedia:Contents/Portals](https://en.wikipedia.org/wiki/Wikipedia:Contents/Portals)
+- [wiki/Category:All_portals](https://en.wikipedia.org/wiki/Category:All_portals)
+- [Wikipedia:Contents/Categories](https://en.wikipedia.org/wiki/Wikipedia:Contents/Categories)
+- [Wikipedia:Featured_articles](https://en.wikipedia.org/wiki/Wikipedia:Featured_articles)
 
 
 
