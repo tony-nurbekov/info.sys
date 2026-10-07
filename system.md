@@ -3,29 +3,30 @@
 ## Contents
 
 
-1. *User Space*
+1. *User Space (Пространство пользователя)*
 - Initialization Daemon (init, systemd) 
 - System Daemons (sshd, udevd)
-- Window manager (X Window System - X11, Desktop Window Manager)
+- Window Managers & GUI (Оконные менеджеры и интерфейсы)
 - Standard C Library (up to 2000 subroutines)
 - GNU Compiler Collection (GCC) 
-- Low-level API (Windows API, Linux syscalls)
 - Shell — bash, PowerShell, cmd
 - Applications
+- Интерфейсы приложений (GUI, CLI, TUI)
 ----------------------------------------------------
-2. *Kernel Space*
-- System calls (about 380)
-- Files and File Systems 
-- Processes and threads 
-- Daemon(Services) - is a program that runs as a background process
-- User Accounts
-- Memory management 16, 32, 64-bit
+2. *Kernel Space (Пространство ядра)*
+- System Calls (Системные вызовы)
+- Файлы и файловые системы
+- Управление процессами и потоками
+- Daemon(Services)
+- Управление памятью
 - Input/Output (I/O)
 - Drivers, firmware
-- Network Subsystem
-* Portable Executable
-* Executable and Linkable Format
+- Сетевая подсистема
+* Форматы исполняемых файлов (PE, ELF)
 - Interrupt
+- Безопасность системы:
+    - Пользователи и Группы (Users & Groups)
+    - Права доступа к файлам (File Permissions)
 
 
 
