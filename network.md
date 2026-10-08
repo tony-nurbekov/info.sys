@@ -32,6 +32,7 @@
 
 
 
+
 ## model OSI and model TCP/IP
 
 1. Application layer: HTTPS, FTP, DNS, DHCP, Telnet, SSH, Secure Shell, SMTP, SMB

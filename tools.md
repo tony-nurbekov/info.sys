@@ -3,19 +3,20 @@
 ****************************************************
 ## The Research interests of Computing Information Systems
 ## Computing Information Systems Engineering toolkit
-1. AI Agents & AI Coding Agents with ->
+1. AI & Automation, AI Coding Agents with ->
 - Git/GitHub, Anthropic, Google, OpenAI, x.ai, OpenRouter, Huggingface
 2. Algorithms & Programming Science
 - Language: BASH/CPP/Kotlin/Python/Swift/PostgreSQL/SQLite 
 ----------------------------------------------------
 **IT Service**
-- Automation & AI
+- AI & Automation
 - Web & Mobile Development
 - IT and Programming Courses, Mentoring
 ----------------------------------------------------
 - Configure & Development of cell phones, tablets, laptops
 ----------------------------------------------------
 - Terminal, VSCode, Android Studio, XCode, Antigravity, Neovim, Nano, Markdown
+- Компилятор, Интерпретатор
 - Docker, Docker Compose
 ----------------------------------------------------
 **System architecture, Network and Information Security**
