@@ -2,31 +2,34 @@
 
 ## Contents
 
-
-1. *User Space (Пространство пользователя)*
+1. Системное программное обеспечение (System Software)
+*User Space (Пространство пользователя)*
 - Initialization Daemon (init, systemd) 
 - System Daemons (sshd, udevd)
-- Window Managers & GUI (Оконные менеджеры и интерфейсы)
+- Оконные менеджеры и интерфейсы
 - Standard C Library (up to 2000 subroutines)
 - GNU Compiler Collection (GCC) 
 - Shell — bash, PowerShell, cmd
-- Applications
 - Интерфейсы приложений (GUI, CLI, TUI)
 ----------------------------------------------------
-2. *Kernel Space (Пространство ядра)*
+*Kernel Space (Пространство ядра)*
+- Драйверы устройств, firmware
 - System Calls (Системные вызовы)
+- Системные библиотеки
+- Компиляторы и интерпретаторы
 - Файлы и файловые системы
 - Управление процессами и потоками
 - Daemon(Services)
 - Управление памятью
 - Input/Output (I/O)
-- Drivers, firmware
 - Сетевая подсистема
 * Форматы исполняемых файлов (PE, ELF)
 - Interrupt
 - Безопасность системы:
     - Пользователи и Группы (Users & Groups)
     - Права доступа к файлам (File Permissions)
+----------------------------------------------------
+2. Прикладное программное обеспечение (Application Software)
 3. Виртуализация и Контейнеризация
 
 
@@ -168,7 +171,7 @@ USB/HDD/SSD/Google/Dropbox/Yandex Cloud:
 ## Everything is a file (Unix)
 
 
-**Most Popular File Extensions on GitHub**
+## Расширение файлов
 
 1. Text-based Extensions
 - .js — JavaScript (frontend, backend)  
