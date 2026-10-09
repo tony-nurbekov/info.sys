@@ -2,10 +2,11 @@
 
 ## Contents
 
+- Конфиденциальная информация
 - Триада ИБ
 - Угрозы
 - Защита
-- Analyze, Reverse Engineering
+- Анализ, Reverse Engineering
 - Уязвимость
 
 
@@ -20,6 +21,7 @@
 - Обфускация (Software Obfuscation) — усложнение анализа и понимания исходного или исполняемого кода
 - Шифрование (Encryption) — преобразование данных в защищённый вид
 - Контроль доступа
+- Электронная цифровая подпись (ЭЦП)
 
 
 ## Триада ИБ
@@ -146,6 +148,51 @@ C2-сервер — управляющий центр вредоносной с�
 ## Сфера ИБ
 
 Information Security, Offensive security, Red teaming, Penetration testing
+
+
+## 4. Конфиденциальная информация
+
+1. Personal Identification Data
+- Passport details  
+- IIN number 
+- Full name (FIO)  
+- Phone number  
+- Home, job address  
+- Driver’s license 
+- Friends / relatives list  
+- Personal notes: notebook, cheat sheet
+- Digital signature (ECP key)
+----------------------------------------------------
+2. Biometric Characteristics
+- Face  
+- Voice  
+- DNA  
+- Fingerprint  
+----------------------------------------------------
+3. Medical Data
+- Medical records  
+- Health card  
+- Diagnoses & prescriptions  
+----------------------------------------------------
+4. Financial Information
+- Bank accounts and details  
+- Credit and debit card details  
+- Loans / credits  
+----------------------------------------------------
+5. Corporate Data
+- Company documents  
+- IT infrastructure information 
+- Personal data of officials   
+----------------------------------------------------
+7. Data storage memory: 
+* filetype: txt, jpg, png, doc, pdf, md
+* microphone, camera, Geolocation
+* Cloud storage: google, mail drive, icloud
+* Email account
+* Messenger: telegram, whatsApp account
+* Site visit logs, Cookies, metadata
+* Social network: instagram, tiktok, youtube
+
 
 
 ## infosec resource

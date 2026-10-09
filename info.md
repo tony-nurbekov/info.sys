@@ -5,8 +5,7 @@
 - Классификация информации
 - Информационные процессы
 - Свойства информации
-- Конфиденциальная информация 
-- Теория кодирования
+
 
 
 
@@ -23,9 +22,6 @@ that convey information, describing the quantity, quality, fact, statistics
 
 
 
-
-
-
 ## 2. Классификация информации
 
 * По значимости — важная, ценная, актуальная, достоверная
@@ -34,7 +30,6 @@ that convey information, describing the quantity, quality, fact, statistics
 * По назначению — общедоступная, специализированная, секретная, личная
 * По достоверности — истинная, ложная
 * По объёму/масштабу — малая, средняя, большая, массивная
-
 
 
 Информацию можно разделить на виды по различным критериям:
@@ -83,8 +78,6 @@ that convey information, describing the quantity, quality, fact, statistics
 
 
 
-
-
 ## 3. Информационные процессы
 
 - > Исследование
@@ -116,50 +109,6 @@ topic into smaller parts in order to understand
 
 
 
-
-
-## 4. Конфиденциальная информация
-
-1. Personal Identification Data
-- Passport details  
-- IIN number 
-- Full name (FIO)  
-- Phone number  
-- Home, job address  
-- Driver’s license 
-- Friends / relatives list  
-- Personal notes: notebook, cheat sheet
-- Digital signature (ECP key)
-----------------------------------------------------
-2. Biometric Characteristics
-- Face  
-- Voice  
-- DNA  
-- Fingerprint  
-----------------------------------------------------
-3. Medical Data
-- Medical records  
-- Health card  
-- Diagnoses & prescriptions  
-----------------------------------------------------
-4. Financial Information
-- Bank accounts and details  
-- Credit and debit card details  
-- Loans / credits  
-----------------------------------------------------
-5. Corporate Data
-- Company documents  
-- IT infrastructure information 
-- Personal data of officials   
-----------------------------------------------------
-7. Data storage memory: 
-* filetype: txt, jpg, png, doc, pdf, md
-* microphone, camera, Geolocation
-* Cloud storage: google, mail drive, icloud
-* Email account
-* Messenger: telegram, whatsApp account
-* Site visit logs, Cookies, metadata
-* Social network: instagram, tiktok, youtube
 
 
 

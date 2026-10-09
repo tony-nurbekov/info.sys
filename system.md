@@ -27,7 +27,7 @@
 - Безопасность системы:
     - Пользователи и Группы (Users & Groups)
     - Права доступа к файлам (File Permissions)
-
+3. Виртуализация и Контейнеризация
 
 
 
@@ -99,6 +99,9 @@ passed directly as the input (stdin) to the next process.
 - [download Docker Engine](https://download.docker.com/linux/ubuntu/dists/noble/pool/stable/amd64/)
 - [docker-cheat-sheet](https://github.com/wsargent/docker-cheat-sheet.git) - Docker Cheat Sheet
 - [VirtualBox, VMWare, Genymotion, QEMU]
+
+
+
 ----------------------------------------------------
 *Operation system tools*
 - top, htop, nmon – monitoring process and daemon
@@ -218,70 +221,6 @@ USB/HDD/SSD/Google/Dropbox/Yandex Cloud:
 
 
 
-
-
-
-## Режимы Android
-
-- Пользовательские — Normal Mode, Safe Mode, SOS Mode.
-- Сервисные — Recovery, Fastboot, Bootloader, Download, Rescue.
-- Инженерные — Factory Mode, Engineer Mode, Meta Mode.
-- Низкоуровневые аварийные — EDL Mode и другие специализированные режимы восстановления.
-
-
-- [Linux Command Library](https://linuxcommandlibrary.com/) - Android app
-- [GNU Linux Pro](https://www.youtube.com/@GNULinuxPro)
-
-
-
-
-## Windows version 
-
-USB/Sources/>ei.cfg:
-```
-[EditionID]
-[Channel]
-Retail
-```
-
-
-## Microsoft Activation Scripts (MAS)
-
-Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, 
-along with advanced troubleshooting.
-
-- [Microsoft Activation Scripts (MAS) in Github](https://github.com/massgravel/Microsoft-Activation-Scripts.git)
-
-
-
-## Windows local user
-- start ms-cxh:localonly
-
-
-## Diskpart
-```
-diskpart
-list disk
-select disk 2
-detail disk
-clean
-```
-
-
-
-## Mobile Service Toolkit
-
-- ADB/Fastboot
-- Odin
-- iTunes
-- SamFW Tool
-- Mi Flash Tool
-- SP Flash Tool
-- QFIL
-- 3uTools
-- QPST
-- Chimera Tool (платный)
-- [UnlockTool](https://unlocktool.net/)
 
 
 
