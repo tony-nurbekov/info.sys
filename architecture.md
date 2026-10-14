@@ -1,4 +1,0 @@
-# Awesome Computer Architecture 
-
-## Contents
-

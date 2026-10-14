@@ -1,36 +1,91 @@
-# Awesome Operating Systems
+# Awesome System Software
 
 ## Contents
 
-1. Системное программное обеспечение (System Software)
+1. UEFI/BIOS
+2. Операционная система
+3. Прикладное программное обеспечение
+4. Виртуализация и Контейнеризация
+
+
+
+## UEFI/BIOS
+
+Unified Extensible Firmware Interface или UEFI  — это встроенное программное обеспечение, 
+которое управляет аппаратными устройствами, и предоставляет программный интерфейс, 
+который помогает операционной системе управлять оборудованием.
+Он пришел на смену устаревшему классическому BIOS.
+
+**Процесс загрузки Linux**
+1. Инициализация оборудования (BIOS / UEFI)
+	- BIOS: Выполняет самотестирование при включении (POST), ищет загрузочный сектор (MBR) на физическом носителе и передает управление первичному загрузчику.
+	- UEFI: Современный стандарт прошивки. Считывает таблицу разделов GPT и загружает исполняемый файл .efi (например, GRUB) со специального системного раздела (ESP).
+2. Загрузчик (Bootloader, например, GRUB2)
+	- Находит и загружает в оперативная память (RAM) образ ядра Linux (vmlinuz) и начальный виртуальный диск (initrd.img или initramfs) из директории /boot.
+	- Передает управление ядру вместе с заданными параметрами командной строки.
+3. Инициализация ядра (Kernel Init)
+	- Ядро распаковывает само себя, определяет и инициализирует аппаратные устройства (процессор, память, периферию).
+	- Монтирует временную файловую систему из initramfs для получения доступа к драйверам и поиска постоянной корневой файловой системы (rootfs).
+	- Запускает первый пользовательский процесс с идентификатором PID 1 (systemd или классический init).
+4. Система инициализации и службы (systemd / init)
+	- Systemd (в современных дистрибутивах) читает конфигурационные файлы, монтирует основные и дополнительные файловые системы согласно /etc/fstab.
+	- Запускает системные службы, сетевые интерфейсы и целевой уровень загрузки (target, например, многопользовательский текстовый или графический graphical.target).
+5. Вход в систему (Login)
+	- Запускается графический дисплейный менеджер (GDM, SDDM, LightDM) или текстовая консоль с приглашением ввести имя пользователя и пароль.
+
+
+
+## Операционная система
+
+Операционная система (ОС) - это системное программное обеспечение, которое управляет 
+аппаратными и программными ресурсами компьютера и предоставляет общие услуги для компьютерных программ. 
+
+**Основные функции ОС**
+
+• Управление ресурсами: выделение оперативной памяти, распределение процессорного времени между задачами и управление накопителями.
+• Взаимодействие с оборудованием: драйверы связывают ОС с комплектующими (видеокартами, принтерами, клавиатурами).
+• Обеспечение интерфейса: создание графической (GUI) или командной (CLI) оболочки, через которую пользователь управляет системой.
+• Файловая система: организация хранения, удаления и быстрого доступа к данным на дисках (например, через NTFS или EXT4).
+• Запуск программ: создание изолированной среды для выполнения прикладного софта.
+
+*Kernel Space (Пространство ядра)*
+- Драйверы устройств, firmware
+- Системные вызовы (System Calls)
+- Системные библиотеки
+- Компиляторы и интерпретаторы
+- Файлы и файловые системы
+- Управление процессами и потоками
+- Сервисы (Daemon)
+- Управление памятью
+- Ввод/Вывод (Input/Output - I/O)
+- Сетевая подсистема
+* Форматы исполняемых файлов (PE, ELF)
+- Прерывание
+- Безопасность системы:
+    - Пользователи и Группы (Users & Groups)
+    - Права доступа к файлам (File Permissions)
+----------------------------------------------------
 *User Space (Пространство пользователя)*
 - Initialization Daemon (init, systemd) 
 - System Daemons (sshd, udevd)
 - Оконные менеджеры и интерфейсы
 - Standard C Library (up to 2000 subroutines)
 - GNU Compiler Collection (GCC) 
-- Shell — bash, PowerShell, cmd
+- Shell - bash, PowerShell, cmd
 - Интерфейсы приложений (GUI, CLI, TUI)
-----------------------------------------------------
-*Kernel Space (Пространство ядра)*
-- Драйверы устройств, firmware
-- System Calls (Системные вызовы)
-- Системные библиотеки
-- Компиляторы и интерпретаторы
-- Файлы и файловые системы
-- Управление процессами и потоками
-- Daemon(Services)
-- Управление памятью
-- Input/Output (I/O)
-- Сетевая подсистема
-* Форматы исполняемых файлов (PE, ELF)
-- Interrupt
-- Безопасность системы:
-    - Пользователи и Группы (Users & Groups)
-    - Права доступа к файлам (File Permissions)
-----------------------------------------------------
-2. Прикладное программное обеспечение (Application Software)
-3. Виртуализация и Контейнеризация
+
+
+
+
+
+## Виртуализация и Контейнеризация
+
+- [docker-github](https://github.com/docker)
+- [Manuals/Docker Engine](https://docs.docker.com/engine/)
+- [Install Docker Engine](https://docs.docker.com/engine/install/ubuntu/)
+- [download Docker Engine](https://download.docker.com/linux/ubuntu/dists/noble/pool/stable/amd64/)
+- [docker-cheat-sheet](https://github.com/wsargent/docker-cheat-sheet.git) - Docker Cheat Sheet
+- [VirtualBox, VMWare, Genymotion, QEMU]
 
 
 
@@ -49,35 +104,11 @@ passed directly as the input (stdin) to the next process.
 
 
 
-## *Everything is a file*
 
 
 
-## GNU/Linux Package
 
-- Cookbook, Documentation, Manual is a cookery book.
-- [info](https://en.wikipedia.org/wiki/Info_(Unix)) 
-- [man](https://mirrors.edge.kernel.org/pub/linux/docs/man-pages/book/) 
-- [help](https://en.wikipedia.org/wiki/Apropos_%28Unix%29?utm_source=chatgpt.com) 
-----------------------------------------------------
-- [curl cheat.sh ](https://github.com/chubin/cheat.sh) 
-- [tildr-pages](https://github.com/tldr-pages/tldr) 
-----------------------------------------------------
-- [Пакеты «Deb»](https://packages.ubuntu.com/src) 
-- [snapcraft](https://snapcraft.io/)
- ----------------------------------------------------
-- [GNU Package](https://directory.fsf.org/wiki/GNU) 
-- [ftp.gnu.org](https://ftp.gnu.org/) 
-- [List of GNU packages](https://en.wikipedia.org/wiki/List_of_GNU_packages)
-- [GNU Coreutils pdf](https://www.gnu.org/software/coreutils/manual/coreutils.pdf) 
-- [GNU Coreutils html](https://www.gnu.org/software/coreutils/manual/coreutils.html)
-- [GNU Software](https://www.gnu.org/software/software.html) 
-- [GNU Manuals Online](https://www.gnu.org/manual/manual.html)
-- [Linux Network Administrators Guide](https://tldp.org/LDP/nag2/index.html)
-- [Bash (Unix shell)](https://www.gnu.org/software/bash/manual/bash.pdf)
-- [LAMP: Linux+Apache2/nginx+PostgreSQL/SQLite+Python/JS/Node.js](https://github.com/gnulinuxpro)
-- [BusyBox, Toybox] - is a free and open-source software - 200 Unix command line utilities.
-- [util-linux] is a package of utilities.
+
 
 
 ## Software development - GNU toolchain
@@ -93,15 +124,6 @@ passed directly as the input (stdin) to the next process.
 - Compiler: GNU Compiler Collection (GCC), Clang
 - build-essential
 
-
-## Containers and Virtualization
-
-- [docker-github](https://github.com/docker)
-- [Manuals/Docker Engine](https://docs.docker.com/engine/)
-- [Install Docker Engine](https://docs.docker.com/engine/install/ubuntu/)
-- [download Docker Engine](https://download.docker.com/linux/ubuntu/dists/noble/pool/stable/amd64/)
-- [docker-cheat-sheet](https://github.com/wsargent/docker-cheat-sheet.git) - Docker Cheat Sheet
-- [VirtualBox, VMWare, Genymotion, QEMU]
 
 
 
@@ -123,11 +145,6 @@ USB/HDD/SSD/Google/Dropbox/Yandex Cloud:
 - /dev/sdX2 — /system (100gb GB, ext4)
 - /dev/sdX3 — /data   (всё остальное, ext4) #backupcopy
 
-
-
-
-
-- x86-64 (also known as x64, x86_64, AMD64, and Intel 64)
 
 
 
@@ -211,11 +228,9 @@ USB/HDD/SSD/Google/Dropbox/Yandex Cloud:
 - .dmg — macOS disk image  
 - .img — System/firmware image  
 - .deb — Debian package  
-- .rpm — RedHat package  
 - .tar / .gz / .zip — Archives (may include sources or binaries)  
 - .pdf — Portable Document Format (docs, manuals)  
-- .png / .jpg / .jpeg / .gif / .svg — Images (assets)  
-- .ico — Icons  
+- .png / .jpg / .jpeg / .gif / .svg — Images (assets)   
 - .ttf / .otf — Fonts  
 - .mp3 / .wav / .ogg — Audio files  
 - .mp4 / .avi / .mkv — Video files  
@@ -237,3 +252,42 @@ USB/HDD/SSD/Google/Dropbox/Yandex Cloud:
 * [awesome-windows](https://github.com/0PandaDEV/awesome-windows.git)
 * [GNU Linux Pro](https://gnulinux.pro) 
 - [stackexchange](https://psychology.stackexchange.com/) - All Sites stackexchange Hub
+
+## GNU/Linux Package
+
+- Cookbook, Documentation, Manual is a cookery book.
+- [info](https://en.wikipedia.org/wiki/Info_(Unix)) 
+- [man](https://mirrors.edge.kernel.org/pub/linux/docs/man-pages/book/) 
+- [help](https://en.wikipedia.org/wiki/Apropos_%28Unix%29?utm_source=chatgpt.com) 
+----------------------------------------------------
+- [curl cheat.sh ](https://github.com/chubin/cheat.sh) 
+- [tildr-pages](https://github.com/tldr-pages/tldr) 
+----------------------------------------------------
+- [Пакеты «Deb»](https://packages.ubuntu.com/src) 
+- [snapcraft](https://snapcraft.io/)
+ ----------------------------------------------------
+- [GNU Package](https://directory.fsf.org/wiki/GNU) 
+- [ftp.gnu.org](https://ftp.gnu.org/) 
+- [List of GNU packages](https://en.wikipedia.org/wiki/List_of_GNU_packages)
+- [GNU Coreutils pdf](https://www.gnu.org/software/coreutils/manual/coreutils.pdf) 
+- [GNU Coreutils html](https://www.gnu.org/software/coreutils/manual/coreutils.html)
+- [GNU Software](https://www.gnu.org/software/software.html) 
+- [GNU Manuals Online](https://www.gnu.org/manual/manual.html)
+- [Linux Network Administrators Guide](https://tldp.org/LDP/nag2/index.html)
+- [Bash (Unix shell)](https://www.gnu.org/software/bash/manual/bash.pdf)
+- [LAMP: Linux+Apache2/nginx+PostgreSQL/SQLite+Python/JS/Node.js](https://github.com/gnulinuxpro)
+- [BusyBox, Toybox] - is a free and open-source software - 200 Unix command line utilities.
+- [util-linux] is a package of utilities.
+
+
+
+
+
+
+
+
+
+
+
+
+
