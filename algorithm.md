@@ -118,7 +118,6 @@ venv/lib/python3.12/site-packages/     ← venv
 - [artsorax](https://www.youtube.com/@artsorax)
 - [Rebrain — онлайн-практикумы по инфраструктуре](www.youtube.com/@rebrainme)
 - [Диджитализируй!](https://youtube.com/@t0digital) 
-- [site/to.digital](https://to.digital/) 
 - [Alek OS](https://youtube.com/@AlekOS) 
 - [Bogdan Stashchuk](www.youtube.com/@Bogdan_Stashchuk)
 **JavaScript**
@@ -133,8 +132,6 @@ venv/lib/python3.12/site-packages/     ← venv
 - [envato - themeforest](https://themeforest.net/)
 - [htmlrev](https://htmlrev.com/)
 - [themewagon](https://themewagon.com/)
-- [Agence web a Lyon - Mcube](https://www.mcube.fr)
-- [Full-Stack-Разработчик Казахстан](https://aidardev.kz/ru)
 **Java/kotlin**
 - [awesome-java](https://github.com/akullpp/awesome-java.git)
 - [Java Compiler (javac)](https://dev.java/)

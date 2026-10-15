@@ -34,14 +34,14 @@
 ## Угрозы
 
 * Ошибка, программная ошибка (Error, Software bug)
-- Shellcode — машинный код/скрипт на C/C++/Assembly
+- Shellcode — машинный код на C/C++/Assembly
 - Бэкдор (Backdoor) 
 - Удалённый троян (RAT, Remote Access Trojan) 
 - Полезная нагрузка (Payload) 
 - Обратная оболочка (Reverse Shell) 
 - Вредоносное ПО (Malware), шпионское ПО (Spyware)
 - Социальная инженерия (Social Engineering)
-- Суперпользователь (Superuser), root, администратор (Administrator, Admin)
+- Суперпользователь, администратор (Superuser, root, Administrator)
 - Повышение привилегий (Privilege Escalation)
 - Уязвимость (Vulnerability), CVE, эксплойт (Exploit) 
 - Атака подмены (Spoofing Attack)

@@ -5,14 +5,15 @@
 1. Программное обеспечение (Software)
 2. Системное программное обеспечение
 3. Микропрограмма (Firmware - UEFI/BIOS)
-4. Прикладное программное обеспечение
-5. Виртуализация и Контейнеризация
+4. Инструментальное программное обеспечение 
+5. Прикладное программное обеспечение
+6. Виртуализация и Контейнеризация
 
 
 ## Программное обеспечение (Software)
 
 Программное обеспечение (ПО) - это совокупность программ, инструкций и данных, которые управляют аппаратной частью компьютера («железом») 
-и позволяют выполнять пользовательские или служебные задачи.
+и позволяют выполнять пользовательские задачи.
 
 
 ## Системное программное обеспечение
@@ -21,12 +22,11 @@
 аппаратными и программными ресурсами компьютера и предоставляет общие услуги для компьютерных программ. 
 
 **Основные функции ОС**
-
-• Управление ресурсами: выделение оперативной памяти, распределение процессорного времени между задачами и управление накопителями.
-• Взаимодействие с оборудованием: драйверы связывают ОС с комплектующими (видеокартами, принтерами, клавиатурами).
-• Обеспечение интерфейса: создание графической (GUI) или командной (CLI) оболочки, через которую пользователь управляет системой.
-• Файловая система: организация хранения, удаления и быстрого доступа к данным на дисках (например, через NTFS или EXT4).
-• Запуск программ: создание изолированной среды для выполнения прикладного софта.
+- Управление ресурсами: выделение оперативной памяти, распределение процессорного времени между задачами и управление накопителями.
+- Взаимодействие с оборудованием: драйверы связывают ОС с комплектующими (видеокартами, принтерами, клавиатурами).
+- Обеспечение интерфейса: создание графической (GUI) или командной (CLI) оболочки, через которую пользователь управляет системой.
+- Файловая система: организация хранения, удаления и быстрого доступа к данным на дисках (например, через NTFS или EXT4).
+- Запуск программ: создание изолированной среды для выполнения прикладного софта.
 
 *Kernel Space (Пространство ядра)*
 - Драйверы устройств, firmware
@@ -39,7 +39,7 @@
 - Управление памятью
 - Ввод/Вывод (Input/Output - I/O)
 - Сетевая подсистема
-* Форматы исполняемых файлов (PE, ELF)
+- Форматы исполняемых файлов (PE, ELF)
 - Прерывание
 - Безопасность системы:
     - Пользователи и Группы (Users & Groups)
@@ -59,7 +59,7 @@
 ## Микропрограмма (Firmware - UEFI/BIOS)
 
 Unified Extensible Firmware Interface или UEFI  — это встроенное программное обеспечение, 
-которое управляет аппаратными устройствами, и предоставляет программный интерфейс, 
+которое управляет аппаратными устройствами и предоставляет программный интерфейс, 
 который помогает операционной системе управлять оборудованием.
 Он пришел на смену устаревшему классическому BIOS.
 
@@ -82,6 +82,35 @@ Unified Extensible Firmware Interface или UEFI  — это встроенно
 
 
 
+## Инструментальное программное обеспечение
+
+* **Редактор исходного кода**
+- Neovim, Nano, Sublime Text, Notepad++
+* **Интегрированные среды разработки (IDE)**
+- Visual Studio Code, Eclipse, NetBeans
+- IntelliJ IDEA (Java/Kotlin), PyCharm (Python), CLion (C/C++)
+- Android Studio (Android), Xcode (iOS/macOS), Visual Studio (C#/.NET)
+- Java Development Kit (JDK / Javac), Android SDK
+* **Компиляторы и Интерпретаторы**
+- GNU Compiler Collection (GCC), Clang, Python Interpreter (CPython)
+* **Отладчики (debuggers)**
+- GNU Debugger, LLDB, Chrome DevTools, Firefox Developer Tools
+* **Системы контроля версий**
+- Git, Github, GitLab
+* **Компоновщик**
+- GNU Binutils, LLD, gold, link.exe
+* **Ассемблер, Дизассемблер, Декомпилятор**
+- Ассемблеры: NASM (Netwide Assembler), MASM (Microsoft Macro Assembler), GAS (GNU Assembler)
+- Дизассемблеры: IDA Pro, Ghidra, OllyDbg, x64dbg, Radare2
+- Декомпиляторы: Ghidra, IDA Pro Compiler, JD-GUI (для Java)
+- **GNU toolchain**
+- GNU Autotools (build system)
+- GNU Binutils
+- GNU C Library
+- GNU Debugger
+- GNU make
+- Compiler: GNU Compiler Collection (GCC), Clang
+- build-essential
 
 
 
@@ -109,30 +138,6 @@ of naming daemons by appending the letter d (sshd, udevd)
 
 Pipeline - the output (stdout) of each process is 
 passed directly as the input (stdin) to the next process.
-
-
-
-
-
-
-
-
-
-
-## Software development - GNU toolchain
-
-- GNU Autotools (build system) – Software build toolset from GNU
-- GNU Binutils – GNU software development tools for executable code
-- GNU Bison – Yacc-compatible parser generator program
-- GNU C Library – GNU implementation of the standard C library
-- GNU Compiler Collection – Free and open-source compiler for various programming languages
-- GNU Debugger – Source-level debugger
-- GNU m4 – General-purpose macro processor
-- GNU make – Software build automation tool
-- Compiler: GNU Compiler Collection (GCC), Clang
-- build-essential
-
-
 
 
 ----------------------------------------------------
@@ -185,11 +190,6 @@ USB/HDD/SSD/Google/Dropbox/Yandex Cloud:
 - pyproject.toml / setup.py – Python packaging configs.
 - package.json – Node.js project metadata & dependencies.
 - CMakeLists.txt – CMake build configuration.
-
-
-
-
-
 
 
 
