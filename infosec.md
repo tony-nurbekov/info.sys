@@ -105,7 +105,7 @@
 - Frida & Objection
 - Magisk, KernelSU - Rooting device, Xposed Framework
 - Google for Developers - Developer products
-- Vulnerability scanners: Nessus, OWASP ZAP, Core Impact, Netsparker
+- Vulnerability scanners: Nessus, OWASP ZAP
 ----------------------------------------------------
 - Exploitation: The Metasploit Project, Burp Suite, sqlmap, Veil Frameworks, SEToolkit
 - Post-Exploitation: C2 frameworks - Cobalt Strike, Sliver, Havoc, Mythic, Empire, Armitage
@@ -125,6 +125,8 @@ C2-сервер — управляющий центр вредоносной с�
 - C2 Client / Operator Console
 - Agent / Beacon / Implant
 - [awesome-command-control](https://github.com/tcostam/awesome-command-control)
+----------------------------------------------------
+- декомпиляция, внедрение кода и обратная сборка apk файлов
 
 
 
@@ -133,8 +135,8 @@ C2-сервер — управляющий центр вредоносной с�
 
 ## Уязвимость
 
-В компьютерной безопасности *уязвимость* — это недостаток 
-или слабость в проектировании, реализации или управлении системой.
+*Уязвимость* — это недостаток или слабость в проектировании, 
+реализации или управлении системой.
 Если ошибка может позволить злоумышленнику скомпрометировать 
 конфиденциальность, целостность или доступность системных ресурсов, 
 её можно считать уязвимостью.

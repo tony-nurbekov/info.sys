@@ -6,7 +6,7 @@
 1. AI & Automation, AI Coding Agents with ->
 - Git/GitHub, Anthropic, Google, OpenAI, x.ai, OpenRouter, Huggingface
 2. Algorithms & Programming Science
-- Language: BASH/CPP/Kotlin/Python/Swift/PostgreSQL/SQLite 
+- Language: BASH/CPP/Kotlin/Python/Swift/Go/PostgreSQL/SQLite 
 ----------------------------------------------------
 **IT Service**
 - AI & Automation
@@ -16,20 +16,18 @@
 - Configure & Development of cell phones, tablets, laptops
 ----------------------------------------------------
 - Terminal, VSCode, Android Studio, XCode, Antigravity, Neovim, Nano, Markdown
-- Компилятор, Интерпретатор
 - Docker, Docker Compose
 ----------------------------------------------------
 **System architecture, Network and Information Security**
 - System: GNU/Linux x86-64 and Android/IOS arm64
 - Netowork: model TCP/IP, CLI netTools, Remote administration tools, Virtual private network (VPN)
 - Infosec: Offensive Security, Red Teaming, Reverse Engineering
-- GNU toolchain, OWASP Project, MITRE ATT&CK, C2(Command and Control),  Post-Exploitation
+- GNU toolchain, *OWASP Project, MITRE ATT&CK, C2(Command and Control)*,  Post-Exploitation
 - Parental controls: Google Family Link, Apple (Экранное время, раздел Семья), AirDroid
 ----------------------------------------------------
 **Cloud computing**
 - Google Workspace: cloud.google.com, Google Docs Editors, Google Drive
 - DigitalOcean, Vercel, Netlify, Cloudflare, ngrok
-- Amazon Web Services (AWS)
 ----------------------------------------------------
 **Graphic Apps**
 - Office - Google Docs Editors, LibreOffice, OpenOffice, MS Office
@@ -63,8 +61,7 @@
 - Низкоуровневые аварийные — EDL Mode и другие специализированные режимы восстановления.
 
 
-- [Linux Command Library](https://linuxcommandlibrary.com/) - Android app
-- [GNU Linux Pro](https://www.youtube.com/@GNULinuxPro)
+
 
 
 
@@ -108,13 +105,13 @@ clean
 - ADB/Fastboot
 - Odin
 - iTunes
-- SamFW Tool
 - Mi Flash Tool
 - SP Flash Tool
 - QFIL
 - 3uTools
 - QPST
 - Chimera Tool (платный)
+- SamFW Tool
 - [UnlockTool](https://unlocktool.net/)
 
 
@@ -125,9 +122,6 @@ clean
 - [Samba](https://www.samba.org/) file and print services to all manner of SMB/CIFS clients  
 - [FTP / SFTP / WebDAV]() — безопасная передача файлов через интернет.   
 - [tp-link print-server](https://www.tp-link.com/kz/home-networking/print-server/)
-
-
-
 
 
 
@@ -183,9 +177,6 @@ clean
 7. Проверка МП на повреждения
 - Основные причины: БП, МП
 
-
-- [Hetman Software](https://www.youtube.com/@Hetman-Software/playlists) 
-- [remontka.pro](https://remontka.pro/)
 
 
 
@@ -426,4 +417,10 @@ The Best Удлинитель (не сетевой фильтр), с сечен�
 Сетевых фильтров для компьютеров (ограничены 10 А)
 Моделей без заземления
 Китайских "noname" без маркировки и сертификатов
+
+
+
+
+- [Hetman Software](https://www.youtube.com/@Hetman-Software/playlists) 
+- [remontka.pro](https://remontka.pro/)
 

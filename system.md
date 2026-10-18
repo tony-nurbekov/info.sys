@@ -252,6 +252,8 @@ USB/HDD/SSD/Google/Dropbox/Yandex Cloud:
 
 
 *awesome-linux* 
+- [Linux Command Library](https://linuxcommandlibrary.com/) - Android app
+- [GNU Linux Pro](https://www.youtube.com/@GNULinuxPro)
 * [Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software.git) 
 * [awesome-the-secret-book](https://github.com/T-450/the-book-of-secret-knowledge)
 * [awesome-shell](https://github.com/alebcay/awesome-shell.git)
