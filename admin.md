@@ -21,9 +21,11 @@
 **System architecture, Network and Information Security**
 - System: GNU/Linux x86-64 and Android/IOS arm64
 - Netowork: model TCP/IP, CLI netTools, Remote administration tools, Virtual private network (VPN)
-- Infosec: Offensive Security, Red Teaming, Reverse Engineering
-- GNU toolchain, *OWASP Project, MITRE ATT&CK, C2(Command and Control)*,  Post-Exploitation
-- Parental controls: Google Family Link, Apple (Экранное время, раздел Семья), AirDroid
+-------------------------
+* *The OWASP Foundation*
+- OWASP Mobile Application Security Testing Guide (MASTG)
+- OWASP Web Security Testing Guide
+- MITRE ATT&CK
 ----------------------------------------------------
 **Cloud computing**
 - Google Workspace: cloud.google.com, Google Docs Editors, Google Drive
