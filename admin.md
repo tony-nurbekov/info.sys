@@ -41,7 +41,6 @@
 - Google AI Studio
 - VideoGen: Google Vids, Veo3, Omni, OpenAI API, Runway, Pika Labs, Higgsfield.ai
 - ImageGen: Nano Banana, Kling, Flux, Diffusers, Stable Diffusion, Midjourney
-- AudioGen: ElevenLabs, Suno 
 ----------------------------------------------------
 ## Unix.projects
 - Digital agency - Web and Mobile app (client-server infrastructure)
