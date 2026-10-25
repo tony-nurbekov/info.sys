@@ -136,7 +136,7 @@ venv/lib/python3.12/site-packages/     ← venv
 - [PurpleSchool | Anton Larichev](https://www.youtube.com/@PurpleSchool)
 - [Тимофей Хирьянов](https://www.youtube.com/@tkhirianov) 
 - [artsorax](https://www.youtube.com/@artsorax)
-- [Rebrain — онлайн-практикумы по инфраструктуре](www.youtube.com/@rebrainme)
+- [Rebrain — онлайн-практикум](www.youtube.com/@rebrainme)
 - [Диджитализируй!](https://youtube.com/@t0digital) 
 - [Alek OS](https://youtube.com/@AlekOS) 
 - [Bogdan Stashchuk](www.youtube.com/@Bogdan_Stashchuk)

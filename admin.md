@@ -51,7 +51,31 @@
 ****************************************************
 
 
-
+****************************************************
+## Client-server Infrastructure
+- Virtual Private Server (VPS) 
+- GNU/Linux Ubuntu Server
+*Containers and Virtualization*
+- Docker, Docker Compose
+*web.server*
+- Nginx*/Apache/Uvicorn
+*server*
+- Python FastAPI/Flask
+*database*
+- PostgreSQL, SQLite
+*client.web*
+- React.js
+- TypeScript
+- Next.js
+- Tailwind.css
+- Graphic: Canvas, GSAP, Three.js, WebGL, Framer Motion, Shadcn/ui
+*client.android*
+- Android: CPP/Kotlin/Jetpack Compose
+- Material-UI
+---
+- IOS: Swift
+- React Native, Flutter
+****************************************************
 
 
 ## Режимы Android
