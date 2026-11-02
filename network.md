@@ -158,10 +158,13 @@ Router (NAT): 192.168.0.2:5432(LAN) → 93.184.216.34:6001(WAN)
 
 
 
-
+## Ресурсы
 
 - [Linux Network Administrators Guide](https://tldp.org/LDP/nag2/index.html) - 
 - [Introduction to TCP/IP Networks](https://mirrors.edge.kernel.org/pub/linux/docs/man-pages/book/)
 - [The Apache HTTP Server](https://httpd.apache.org/docs-project/) 
+----------------------------------------------------
+- Компьютерные сети. Нисходящий подход. Джеймс Куроуз
+- Компьютерные сети. Принципы, технологии, протоколы. Виктор Олифер, Наталья Олифер
 
 

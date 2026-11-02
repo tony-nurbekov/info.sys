@@ -232,6 +232,7 @@ C2-сервер — управляющий центр вредоносной с�
 * [AppSec сообщество - ORDA](https://cyberorda.com/#)
 - [4PDA:](https://4pda.to/)
 *Practice Labs & CTFs*
+- Хакинг. Искусство эксплойта, автор Джон Эриксон
 - [exploit-db](https://www.exploit-db.com/)
 - TryHackMe, Hack The Box, Metasploitable, Root-Me (root-me.org)
 

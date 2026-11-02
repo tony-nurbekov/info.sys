@@ -12,7 +12,7 @@
 
 ## Программное обеспечение (Software)
 
-Программное обеспечение (ПО) - это совокупность программ, инструкций и данных, которые управляют аппаратной частью компьютера («железом») 
+Программное обеспечение (ПО) - это совокупность программ, *инструкций и данных*, которые управляют аппаратной частью компьютера («железом») 
 и позволяют выполнять пользовательские задачи.
 
 
@@ -249,11 +249,14 @@ USB/HDD/SSD/Google/Dropbox/Yandex Cloud:
 
 
 
-
+## Ресурсы
 
 *awesome-linux* 
-- [Linux Command Library](https://linuxcommandlibrary.com/) - Android app
-- [GNU Linux Pro](https://www.youtube.com/@GNULinuxPro)
+- [Linux Command Library](https://linuxcommandlibrary.com/)
+- Unix и Linux: руководство системного администратора. Эви Немет, Гарт Снайдер, 5изд
+- Командная строка Linux. Полное руководство. Уильям Шоттс 
+- Ubuntu CLI cheat sheet. Official Docs of Canonical 
+- [Comprehensive Linux Cheatsheet](https://github.com/gto76/linux-cheatsheet)
 * [Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software.git) 
 * [awesome-the-secret-book](https://github.com/T-450/the-book-of-secret-knowledge)
 * [awesome-shell](https://github.com/alebcay/awesome-shell.git)
@@ -261,7 +264,7 @@ USB/HDD/SSD/Google/Dropbox/Yandex Cloud:
 * [awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets.git)
 * [awesome-windows](https://github.com/0PandaDEV/awesome-windows.git)
 * [GNU Linux Pro](https://gnulinux.pro) 
-- [stackexchange](https://psychology.stackexchange.com/) - All Sites stackexchange Hub
+- [stackexchange Hub](https://psychology.stackexchange.com/)
 
 ## GNU/Linux Package
 

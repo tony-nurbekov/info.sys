@@ -1,5 +1,13 @@
 # Awesome AI & Automation
 
+## Contents
+
+- Искусственный интеллект (AI)
+- Большая языковая модель (LLM)
+- Машинное обучение (ML)
+- Компьютерное зрение
+
+
 
 ****************************************************
 ## Artificial Information Systems, ML, LLM, computing

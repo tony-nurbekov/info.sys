@@ -130,7 +130,7 @@ venv/lib/python3.12/site-packages/     ← venv
 
 
 
-## Resource
+## Ресурсы
 
 - [Курсы программирования](https://purpleschool.ru/)
 - [PurpleSchool | Anton Larichev](https://www.youtube.com/@PurpleSchool)
@@ -164,11 +164,21 @@ venv/lib/python3.12/site-packages/     ← venv
 **Python**
 - [Python documentation](https://docs.python.org/3/)
 - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+- [Comprehensive Python Cheatsheet](https://github.com/gto76/python-cheatsheet)
 - [ronreiter](https://github.com/ronreiter)
 - [Interactive Tutorials of more language](http://www.learnpython.org/)
 - [awesome-python](https://github.com/vinta/awesome-python.git)
 
-
+----------------------------------------------------
+*Books*
+- [Серия "Библиотека программиста (Питер)"](https://www.litres.ru/)
+- Грокаем алгоритмы. 2-е изд. Адитья Бхаргава
+- Андрей Викторович Столяров - Автор книг по IT и Программированию
+- Язык программирование C Денис Ритчи
+- A Byte of Python. Swaroop
+- Программирование. Принципы и практика использования C++, Бьерн Страуструп
+- 100 примеров на СИ, Д. Кольцов
+- Большая книга проектов Python, Эл Свейгарт
 
 
 
