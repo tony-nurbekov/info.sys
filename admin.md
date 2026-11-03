@@ -378,7 +378,7 @@ The Best Удлинитель (не сетевой фильтр), с сечен�
 - [Ремонт: Ноутбуков, Компьютеров](https://vlab.su)
 - [Hetman Software](https://www.youtube.com/@Hetman-Software/playlists) 
 - [remontka.pro](https://remontka.pro/)
-- [С ЧЕГО НАЧАТЬ РЕМОНТИРОВАТЬ ТЕХНИКУ?](notebook-31.ru/)
+- [С ЧЕГО НАЧАТЬ РЕМОНТИРОВАТЬ ТЕХНИКУ?](notebook-31.ru)
 
 
 

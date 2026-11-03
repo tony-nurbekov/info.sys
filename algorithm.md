@@ -136,10 +136,30 @@ venv/lib/python3.12/site-packages/     ← venv
 - [PurpleSchool | Anton Larichev](https://www.youtube.com/@PurpleSchool)
 - [Тимофей Хирьянов](https://www.youtube.com/@tkhirianov) 
 - [artsorax](https://www.youtube.com/@artsorax)
-- [Rebrain — онлайн-практикум](www.youtube.com/@rebrainme)
+- [Rebrain](www.youtube.com/@rebrainme)
 - [Диджитализируй!](https://youtube.com/@t0digital) 
 - [Alek OS](https://youtube.com/@AlekOS) 
 - [Bogdan Stashchuk](www.youtube.com/@Bogdan_Stashchuk)
+----------------------------------------------------
+**Python**
+- [Python documentation](https://docs.python.org/3/)
+- [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+- [Comprehensive Python Cheatsheet](https://github.com/gto76/python-cheatsheet)
+- [ronreiter](https://github.com/ronreiter)
+- [Interactive Tutorials of more language](http://www.learnpython.org/)
+- [awesome-python](https://github.com/vinta/awesome-python.git)
+- A Byte of Python. Swaroop
+- Большая книга проектов Python, Эл Свейгарт
+----------------------------------------------------
+**Java/kotlin**
+- [awesome-java](https://github.com/akullpp/awesome-java.git)
+- [Java Compiler (javac)](https://dev.java/)
+- [javase](https://docs.oracle.com/en/java/javase/)
+- [openJDK-Github repo](https://github.com/openjdk)
+- [jdk.java.net](https://jdk.java.net/)
+- [introcs.cs.princeton.edu/java/11cheatsheet](https://introcs.cs.princeton.edu/java/11cheatsheet/)
+- [dev.java/learn](https://dev.java/learn/getting-started/)
+----------------------------------------------------
 **JavaScript**
 - [mdn.mozilla](https://developer.mozilla.org/ru/) 
 - [w3schools](https://www.w3schools.com/)
@@ -152,33 +172,14 @@ venv/lib/python3.12/site-packages/     ← venv
 - [envato - themeforest](https://themeforest.net/)
 - [htmlrev](https://htmlrev.com/)
 - [themewagon](https://themewagon.com/)
-**Java/kotlin**
-- [awesome-java](https://github.com/akullpp/awesome-java.git)
-- [Java Compiler (javac)](https://dev.java/)
-- [javase](https://docs.oracle.com/en/java/javase/)
-- [openJDK-Github repo](https://github.com/openjdk)
-- [jdk.java.net](https://jdk.java.net/)
-- [introcs.cs.princeton.edu/java/11cheatsheet](https://introcs.cs.princeton.edu/java/11cheatsheet/)
-- [dev.java/learn](https://dev.java/learn/getting-started/)
 ----------------------------------------------------
-**Python**
-- [Python documentation](https://docs.python.org/3/)
-- [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
-- [Comprehensive Python Cheatsheet](https://github.com/gto76/python-cheatsheet)
-- [ronreiter](https://github.com/ronreiter)
-- [Interactive Tutorials of more language](http://www.learnpython.org/)
-- [awesome-python](https://github.com/vinta/awesome-python.git)
-
-----------------------------------------------------
-*Books*
+**С/СPP**
 - [Серия "Библиотека программиста (Питер)"](https://www.litres.ru/)
 - Грокаем алгоритмы. 2-е изд. Адитья Бхаргава
 - Андрей Викторович Столяров - Автор книг по IT и Программированию
-- Язык программирование C Денис Ритчи
-- A Byte of Python. Swaroop
-- Программирование. Принципы и практика использования C++, Бьерн Страуструп
 - 100 примеров на СИ, Д. Кольцов
-- Большая книга проектов Python, Эл Свейгарт
+- Язык программирование C Денис Ритчи
+- Программирование. Принципы и практика использования C++, Бьерн Страуструп
 
 
 

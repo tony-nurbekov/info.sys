@@ -39,7 +39,7 @@
 - Управление памятью
 - Ввод/Вывод (Input/Output - I/O)
 - Сетевая подсистема
-- Форматы исполняемых файлов (PE, ELF)
+- Форматы исполняемых файлов (PE, ELF, DEX)
 - Прерывание
 - Безопасность системы:
     - Пользователи и Группы (Users & Groups)
@@ -247,8 +247,6 @@ USB/HDD/SSD/Google/Dropbox/Yandex Cloud:
 
 
 
-
-
 ## Ресурсы
 
 *awesome-linux* 
@@ -257,7 +255,6 @@ USB/HDD/SSD/Google/Dropbox/Yandex Cloud:
 - Командная строка Linux. Полное руководство. Уильям Шоттс 
 - Ubuntu CLI cheat sheet. Official Docs of Canonical 
 - [Comprehensive Linux Cheatsheet](https://github.com/gto76/linux-cheatsheet)
-* [Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software.git) 
 * [awesome-the-secret-book](https://github.com/T-450/the-book-of-secret-knowledge)
 * [awesome-shell](https://github.com/alebcay/awesome-shell.git)
 * [awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps.git)
